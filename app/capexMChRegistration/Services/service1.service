@@ -1,0 +1,9 @@
+{
+    "DestinationName": "../serviceonline/",
+    "OfflineEnabled": false,
+    "LanguageURLParam": "sap-language",
+    "OnlineOptions": {},
+    "PathSuffix": "",
+    "SourceType": "Cloud",
+    "ServiceUrl":""
+}

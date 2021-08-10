@@ -1,0 +1,33 @@
+{
+  "xsappname": "capex",
+  "tenant-mode": "dedicated",
+  "scopes": [
+    {
+      "name": "$XSAPPNAME.CapexRead",
+      "description": "CapexRead"
+    },
+    {
+      "name": "$XSAPPNAME.CapexWrite",
+      "description": "CapexWrite"
+    }
+  ],
+  "attributes": [],
+  "role-templates": [
+    {
+      "name": "CapexRead",
+      "description": "generated",
+      "scope-references": [
+        "$XSAPPNAME.CapexRead"
+      ],
+      "attribute-references": []
+    },
+    {
+      "name": "CapexWrite",
+      "description": "generated",
+      "scope-references": [
+        "$XSAPPNAME.CapexWrite"
+      ],
+      "attribute-references": []
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "capex",
+  "description": "",
+  "dependencies": {
+    "@sap/cds": "^5",
+    "@sap/xsenv": "^3.1.0",
+    "@sap/xssec": "^3.0.10",
+    "axios": "^0.21.1",
+    "express": "^4",
+    "hdb": "^0.18.2",
+    "passport": "^0.4.1",
+    "qs": "^6.10.1"
+  },
+  "scripts": {
+    "start": "npx cds run"
+  },
+  "cds": {
+    "requires": {
+      "db": {
+        "kind": "sql"
+      },
+      "uaa": {
+        "kind": "xsuaa",
+        "credentials": {}
+      }
+    },
+    "hana": {
+      "deploy-format": "hdbtable"
+    }
+  },
+  "devDependencies": {
+    "sqlite3": "^5.0.2"
+  }
+}
