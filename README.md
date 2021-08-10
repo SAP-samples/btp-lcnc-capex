@@ -1,4 +1,4 @@
-# Enterprise Sales Procurement Model Application
+# Enterprise Capital Expenditure Management Application
 
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/btp-lcnc-espm)](https://api.reuse.software/info/github.com/SAP-samples/btp-lcnc-espm)
 
@@ -49,10 +49,9 @@ Please be advised that any downloads are subject to the following:
 
 These resources are provided *without* any warranty or support obligations.
 
-[Create an issue](https://github.com/SAP-samples/btp-lcnc-
-/issues) in this repository if you find a bug or have questions about the content. 
+[Create an issue](https://github.com/SAP-samples/btp-lcnc-capex/issues) in this repository if you find a bug or have questions about the content. 
 
-For additional support, [ask a question in SAP Community](https://answers.sap.com/questions/ask.html). 
+For additional support, [ask a question in SAP Community](https://answers.sap.com/questions/ask.html).
 
 ***
 
