@@ -8,9 +8,9 @@ This is a sample project demonstrating the capabilities of the Low Code Applicat
 
 Features:
 
-- The business scenario is about a Sales Representative of an Electronic products company who can view all his Sales (sales orders) and his Procurements (purchase orders) and can create sales orders and purchase orders, update product information, maintain a list of customers and suppliers.
+- The business scenario is about creating a low code capital expenditure management application.
 - Demo the project structure, Preview and Deployment etc.
-- Showcase multiple page layouts and rich set of MDK UI controls, e.g., GridTable, ObjectTable, ObjectHeader, ObjectCollection, ImageCollection, ListPicker, KeyValue and SimpleProperty etc.
+- Showcase multiple page layouts and rich set of MDK UI controls, e.g., ObjectTable, ObjectHeader, ListPicker, KeyValue, DocumentFormcell and SimpleProperty etc.
 - Consume local or remote OData service by using CAP on Cloud Foundry.
 
 ***
@@ -49,7 +49,8 @@ Please be advised that any downloads are subject to the following:
 
 These resources are provided *without* any warranty or support obligations.
 
-[Create an issue](https://github.com/SAP-samples/btp-lcnc-espm/issues) in this repository if you find a bug or have questions about the content. 
+[Create an issue](https://github.com/SAP-samples/btp-lcnc-
+/issues) in this repository if you find a bug or have questions about the content. 
 
 For additional support, [ask a question in SAP Community](https://answers.sap.com/questions/ask.html). 
 
