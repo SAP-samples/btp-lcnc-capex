@@ -1,4 +1,4 @@
 var appSettings = {
-    "DefaultAppLanguage": "en",
-    "ApplicationDisplayName": ""
+  "DefaultAppLanguage" : "en",
+  "ApplicationDisplayName":""
 }

@@ -31,5 +31,5 @@
   "devDependencies": {
     "sqlite3": "^5.0.2"
   },
-  "lcap":true
+  "lcap": true
 }

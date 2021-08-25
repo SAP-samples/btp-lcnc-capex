@@ -10,6 +10,10 @@
 */
 html,
 body,
+#containerDiv,
+#containerDiv>.sapUiComponentContainer,
+#containerDiv>.sapUiComponentContainer>div,
+.sapUiComponentContainer>div>.sapUiView,
 .mdkContainer,
 .mdkContainer>div,
 .mdkframe {
@@ -17,7 +21,6 @@ body,
     padding: 0;
     width: 100% !important;
     height: 100% !important; 
-    min-height: 600px !important;
     overflow: hidden;
     border: none;
 }

@@ -5,7 +5,7 @@
         "Organization": "",
         "Space": "",
         "Deploy": {
-            "Description": "capex Multi-Channel Registration ",
+            "Description": "Capex Request Registration ",
             "WebClient": {
                 "AutoUrl": true,
                 "Version": "",

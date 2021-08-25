@@ -1,28 +1,25 @@
 specVersion: '1.0'
 metadata:
-  name: MDKModule
+  name: 'mdkmodule'
 type: application
-resources:
-  configuration:
-    propertiesFileSourceEncoding: UTF-8
-builder:
-  resources:
-    excludes:
-      - "/test/**"
-      - "/localService/**"
-  customTasks:
-  - name: webide-extension-task-updateManifestJson
-    afterTask: generateVersionInfo
+ui5Theme: sap_fiori_3
+server:
+  customMiddleware:
+  - name: fiori-tools-proxy
+    afterMiddleware: compression
     configuration:
-      appFolder: webapp
-      destDir: dist
-  - name: webide-extension-task-resources
-    afterTask: webide-extension-task-updateManifestJson
+      ignoreCertError: false # If set to true, certificate errors will be ignored. E.g. self-signed certificates will be accepted
+      backend:
+      - path: /sap/opu/odata
+        url: http://localhost
+      ui5:
+        path: 
+        - /resources
+        - /test-resources
+        url: https://ui5.sap.com
+        version:  # The UI5 version, for instance, 1.78.1. Empty means latest version
+  - name: fiori-tools-appreload
+    afterMiddleware: compression
     configuration:
-      nameSpace: ns
-  - name: webide-extension-task-copyFile
-    afterTask: webide-extension-task-resources
-    configuration:
-      srcFile: "/xs-app.json"
-      destFile: "/xs-app.json"
-  
+     port: 35729
+     path: webapp

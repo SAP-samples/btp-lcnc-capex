@@ -27,5 +27,11 @@
 			"cacheControl": "no-cache, must-revalidate",
 			"authenticationType": "xsuaa"
 		}
+	],
+	"responseHeaders": [
+		{
+			"name": "Content-Security-Policy",
+			"value": "frame-ancestors 'self' *.hana.ondemand.com *.applicationstudio.cloud.sap"
+		}
 	]
 }
