@@ -1,0 +1,34 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# VSCode project
+.vscode
+
+# package lock for now ignored
+package-lock.json
+
+# LCAP generatef files
+app/**/dist/
+app/**/dist-zip/
+build/
+gen/
+mta_archives

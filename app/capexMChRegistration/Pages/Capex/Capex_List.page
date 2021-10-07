@@ -1,0 +1,86 @@
+{
+	"Controls": [
+		{
+			"Target": "",
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable",
+			"Sections": [
+				{
+					"Header": {
+						"Caption": "Capex Requests",
+						"UseTopPadding": false
+					},
+					"Footer": {
+						"Caption": "All Requests",
+						"FooterStyle": "attribute",
+						"AccessoryType": "none",
+						"AttributeLabel": "/capexMChRegistration/Rules/Capex/Capex_Request_Count.js"
+					},
+					"_Type": "Section.Type.ObjectTable",
+					"Target": {
+						"Service": "/capexMChRegistration/Services/service1.service",
+						"EntitySet": "Capex",
+						"QueryOptions": "$expand=type,country,business_unit"
+					},
+					"_Name": "SectionObjectTable0",
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"ObjectCell": {
+						"ContextMenu": {
+							"Items": [
+							],
+							"PerformFirstActionWithFullSwipe": true
+						},
+						"Title": "{title}",
+						"Subhead": "Request Id {requestid}",
+						"Footnote": "{type/typedescription}",
+						"Description": "{description}",
+						"StatusText": "{capex} {currency_code}",
+						"SubstatusText": "{country/name}",
+						"DetailImageIsCircular": false,
+						"PreserveIconStackSpacing": false,
+						"AccessoryType": "disclosureIndicator",
+						"OnPress": "/capexMChRegistration/Actions/Capex/NavToCapex_Detail.action"
+					},
+					"Search": {
+						"Enabled": true,
+						"Placeholder": "Search",
+						"BarcodeScanner": true,
+						"Delay": 30,
+						"MinimumCharacterThreshold": 3
+					},
+					"DataPaging": {
+						"ShowLoadingIndicator": true,
+						"LoadingIndicatorText": "Loading more items, please wait..."
+					}
+				}
+			],
+			"LoadingIndicator": {
+				"Enabled": true,
+				"Text": "Loading, please wait..."
+			}
+		}
+	],
+	"Target": "",
+	"_Type": "Page",
+	"DataSubscriptions": [
+		"Capex"
+	],
+	"_Name": "Capex_List",
+	"Caption": "Registration",
+	"ActionBar": {
+		"Items": [
+			{
+				"Target": "",
+				"_Name": "ActionBarItem0",
+				"Text": "",
+				"SystemItem": "Add",
+				"Position": "right",
+				"IsIconCircular": false,
+				"OnPress": "/capexMChRegistration/Actions/Capex/NavToCapex_Create.action"
+			}
+		],
+		"_Name": "ActionBar0"
+	}
+}

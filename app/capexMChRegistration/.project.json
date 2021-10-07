@@ -1,0 +1,45 @@
+{
+    "Credential": "cf",
+    "CF": {
+        "Target": "",
+        "Organization": "",
+        "Space": "",
+        "Deploy": {
+            "Description": "Capex Request Registration ",
+            "WebClient": {
+                "AutoUrl": true,
+                "Version": "",
+                "StaticUrl": ""
+            },
+            "Destination": [{
+                "CF": "capex-app-srv",
+                "MDK": "../service/",
+                "URL": ""
+            }]
+        }
+    },
+    "MobileService": {
+        "Type": "standard",
+        "AdminAPI": "",
+        "AppId": "",
+        "Destination": []
+    },
+    "Onboarding": {
+        "Schema": "sapmobilesvcs",
+        "TimeZone": "UTC",
+        "URL": ""
+    },
+    "LCAP": {
+        "Service": [{
+            "mdk": "capexMChRegistration/Services/service1.service",
+            "cap": {
+                "name": "MainOnlineService",
+                "sourcePath": "srv/service.cds",
+                "path": "/serviceonline/",
+                "entryPath": "/service",
+                "destination": "capex-app-srv",
+                "value": "0"
+            }
+        }]
+    }
+}

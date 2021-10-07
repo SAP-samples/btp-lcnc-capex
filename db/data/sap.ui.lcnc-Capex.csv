@@ -1,0 +1,2 @@
+ID;requestid;title;firstname;lastname;email;userid;comments;totalcost;type_type;capex;opex;currency_code;roi;irr;country_code;business_unit_business_unit;description;energy_efficiency;co2_efficiency;energy_cost_savings;water_savings;folder_id
+99da0a8e-e878-4302-a34c-df9b1760af89;IAP-2020-173;App Creation;John;Doe;John.Doe@example.com;jdoe;Please Approve;5000;SW;40000;2000;EUR;15;5;DE;BPM;Provide a fresh experience for our customers by providing new apps for our services;10;20;15;10;test_folder
