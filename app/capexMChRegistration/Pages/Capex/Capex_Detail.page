@@ -15,7 +15,11 @@
 						"HeadlineText": "{title}",
 						"Tags": [
 						],
-						"Target": ""
+						"Target": {
+  							"Service": "/capexMChRegistration/Services/service1.service",
+  							"EntitySet": "Capex",
+  							"QueryOptions":"$expand=type,country,business_unit&$filter=ID eq {ID}"
+						}
 					},
 					"_Type": "Section.Type.ObjectHeader",
 					"_Name": "SectionObjectHeader0"
