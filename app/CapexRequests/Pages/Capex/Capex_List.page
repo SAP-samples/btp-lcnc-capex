@@ -1,16 +1,8 @@
 {
-	"Caption": "Capex Requests",
-	"ActionBar": {
-		"Items": [
-			{
-				"OnPress": "/CapexRequests/Actions/Capex/NavToCapex_Create.action",
-				"Position": "Right",
-				"SystemItem": "Add"
-			}
-		]
-	},
 	"Controls": [
 		{
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable",
 			"Sections": [
 				{
 					"Header": {
@@ -25,17 +17,32 @@
 						"FooterStyle": "attribute",
 						"UseBottomPadding": false
 					},
+					"_Type": "Section.Type.ObjectTable",
+					"Target": {
+						"EntitySet": "Capex",
+						"Service": "/CapexRequests/Services/service1.service",
+						"QueryOptions": "$expand=type,country,business_unit"
+					},
+					"_Name": "SectionObjectTable0",
+					"EmptySection": {
+						"FooterVisible": false
+					},
 					"ObjectCell": {
-						"AccessoryType": "disclosureIndicator",
-						"DetailImageIsCircular": false,
-						"OnPress": "/CapexRequests/Actions/Capex/NavToCapex_Detail.action",
-						"PreserveIconStackSpacing": false,
 						"Title": "{title}",
 						"Subhead": "Request Id {requestid}",
 						"Footnote": "{type/typedescription}",
 						"Description": "{description}",
 						"StatusText": "{capex} {currency_code}",
-						"SubstatusText": "{country/name}"
+						"SubstatusText": "{country/name}",
+						"DetailImageIsCircular": false,
+						"PreserveIconStackSpacing": false,
+						"AccessoryType": "disclosureIndicator",
+						"OnPress": "/CapexRequests/Actions/Capex/NavToCapex_Detail.action",
+						"ContextMenu": {
+							"Items": [
+							],
+							"PerformFirstActionWithFullSwipe": true
+						}
 					},
 					"Search": {
 						"Enabled": true,
@@ -47,33 +54,45 @@
 					"DataPaging": {
 						"ShowLoadingIndicator": true,
 						"LoadingIndicatorText": "Loading more items, please wait..."
-					},
-					"Target": {
-						"EntitySet": "Capex",
-						"Service": "/CapexRequests/Services/service1.service",
-						"QueryOptions": "$expand=type,country,business_unit"
-					},
-					"_Type": "Section.Type.ObjectTable"
+					}
 				}
 			],
 			"LoadingIndicator": {
 				"Enabled": true,
 				"Text": "Loading, please wait..."
-			},
-			"_Type": "Control.Type.SectionedTable",
-			"_Name": "SectionedTable"
+			}
 		}
 	],
 	"_Type": "Page",
+	"DataSubscriptions": [
+		"Capex"
+	],
+	"_Name": "Capex_List",
+	"Caption": "Capex Requests",
+	"ActionBar": {
+		"Items": [
+			{
+				"_Name": "ActionBarItem0",
+				"Caption": "",
+				"SystemItem": "Add",
+				"Position": "Right",
+				"IsIconCircular": false,
+				"OnPress": "/CapexRequests/Actions/Capex/NavToCapex_Create.action"
+			}
+		],
+		"_Name": "ActionBar1"
+	},
 	"ToolBar": {
 		"Items": [
 			{
-				"_Name": "LogoutToolbarItem",
 				"_Type": "Control.Type.ToolbarItem",
+				"_Name": "LogoutToolbarItem",
 				"Caption": "Logout",
+				"Enabled": true,
+				"Visible": true,
+				"Clickable": true,
 				"OnPress": "/CapexRequests/Actions/Logout.action"
 			}
 		]
-	},
-	"_Name": "Capex_List"
+	}
 }
