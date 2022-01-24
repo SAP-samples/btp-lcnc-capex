@@ -1,0 +1,315 @@
+{
+	"ActionBar": {
+		"Items": [
+			{
+				"OnPress": "/CapexRequests/Actions/CloseModalPage_Cancel.action",
+				"Position": "Left",
+				"SystemItem": "Cancel"
+			},
+			{
+				"OnPress": "/CapexRequests/Actions/Capex/Capex_CreateEntity.action",
+				"Position": "Right",
+				"SystemItem": "Save"
+			}
+		]
+	},
+	"Caption": "New Capital Expenditure Request",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"Target": "",
+					"Controls": [
+						{
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "firstname",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Caption": "First Name",
+							"PlaceHolder": "enter requester firstname "
+						},
+						{
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "lastname",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Caption": "Last Name",
+							"PlaceHolder": "enter requester lastname"
+						},
+						{
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "email",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Caption": "Email Address",
+							"PlaceHolder": "enter requester email address",
+							"KeyboardType": "Email"
+						},
+						{
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "userid",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Caption": "User ID",
+							"PlaceHolder": "PlaceHolder"
+						}
+					],
+					"Caption": "Requester",
+					"Visible": true
+				},
+				{
+					"Controls": [
+						{
+							"_Type": "Control.Type.FormCell.Note",
+							"_Name": "comments",
+							"IsEditable": true,
+							"IsVisible": true,
+							"PlaceHolder": "enter comments to the approver"
+						}
+					],
+					"Caption": "Comments from Requester",
+					"Visible": true
+				},
+				{
+					"Controls": [
+						{
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "requestid",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Caption": "Request ID",
+							"PlaceHolder": "requestid"
+						},
+						{
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "title",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Caption": "Title",
+							"PlaceHolder": "title"
+						},
+						{
+							"_Type": "Control.Type.FormCell.ListPicker",
+							"_Name": "type_listpicker",
+                            "IsPickerDismissedOnSelection": true,
+							"IsEditable": true,
+							"IsVisible": true,
+							"AllowMultipleSelection": false,
+							"AllowEmptySelection": false,
+							"Caption": "Type",
+							"DataPaging": {
+								"ShowLoadingIndicator": false,
+								"PageSize": 50
+							},
+							"PickerPrompt": "Please select Capex Type",
+							"IsSelectedSectionEnabled": false,
+							"IsPickerDismissedOnSelection": true,
+							"IsSearchCancelledAfterSelection": false,
+							"AllowDefaultValueIfOneItem": false,
+							"Search": {
+								"Enabled": true,
+								"MinimumCharacterThreshold": 3
+							},
+							"PickerItems": {
+								"Target": {
+									"Service": "/CapexRequests/Services/service1.service",
+									"EntitySet": "CapexType"
+								},
+								"DisplayValue": "{typedescription}",
+								"ReturnValue": "{type}"
+							}
+						},
+						{
+							"_Type": "Control.Type.FormCell.ListPicker",
+							"_Name": "country_listpicker",
+                            "IsPickerDismissedOnSelection": true,
+							"IsEditable": true,
+							"IsVisible": true,
+							"AllowMultipleSelection": false,
+							"AllowEmptySelection": false,
+							"Caption": "Country/Region",
+							"DataPaging": {
+								"ShowLoadingIndicator": false,
+								"PageSize": 50
+							},
+							"PickerPrompt": "Please select country",
+							"IsSelectedSectionEnabled": true,
+							"IsPickerDismissedOnSelection": true,
+							"IsSearchCancelledAfterSelection": false,
+							"AllowDefaultValueIfOneItem": false,
+							"Search": {
+								"Enabled": true,
+								"MinimumCharacterThreshold": 3
+							},
+							"PickerItems": {
+								"Target": {
+									"Service": "/CapexRequests/Services/service1.service",
+									"EntitySet": "Countries"
+								},
+								"DisplayValue": "{name}",
+								"ReturnValue": "{code}"
+							}
+						},
+						{
+							"_Type": "Control.Type.FormCell.ListPicker",
+							"_Name": "businessunit_listpicker",
+                            "IsPickerDismissedOnSelection": true,
+							"IsEditable": true,
+							"IsVisible": true,
+							"AllowMultipleSelection": false,
+							"AllowEmptySelection": false,
+							"Caption": "Business Unit",
+							"DataPaging": {
+								"ShowLoadingIndicator": false,
+								"PageSize": 50
+							},
+							"PickerPrompt": "Please select Business Unit",
+							"IsSelectedSectionEnabled": true,
+							"IsPickerDismissedOnSelection": true,
+							"IsSearchCancelledAfterSelection": false,
+							"AllowDefaultValueIfOneItem": false,
+							"Search": {
+								"Enabled": true,
+								"MinimumCharacterThreshold": 3
+							},
+							"PickerItems": {
+								"Target": {
+									"Service": "/CapexRequests/Services/service1.service",
+									"EntitySet": "BusinessUnits"
+								},
+								"DisplayValue": "{name}",
+								"ReturnValue": "{business_unit}"
+							}
+						},
+						{
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "capex",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Caption": "CAPEX",
+							"PlaceHolder": "capex"
+						},
+						{
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "opex",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Caption": "OPEX",
+							"PlaceHolder": "opex"
+						},
+						{
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "totalcost",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Caption": "Total Cost",
+							"PlaceHolder": "total cost"
+						},
+						{
+							"_Type": "Control.Type.FormCell.ListPicker",
+							"_Name": "currency_listpicker",
+                            "IsPickerDismissedOnSelection": true,
+							"IsEditable": true,
+							"IsVisible": true,
+							"AllowMultipleSelection": false,
+							"AllowEmptySelection": false,
+							"Caption": "Currency",
+							"DataPaging": {
+								"ShowLoadingIndicator": false,
+								"PageSize": 50
+							},
+							"PickerPrompt": "Please select Currency",
+							"IsSelectedSectionEnabled": true,
+							"IsPickerDismissedOnSelection": true,
+							"IsSearchCancelledAfterSelection": false,
+							"AllowDefaultValueIfOneItem": false,
+							"Search": {
+								"Enabled": true
+							},
+							"PickerItems": {
+								"Target": {
+									"Service": "/CapexRequests/Services/service1.service",
+									"EntitySet": "Currencies"
+								},
+								"DisplayValue": "{name}",
+								"ReturnValue": "{code}"
+							}
+						},
+						{
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "irr",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Caption": "IRR",
+							"PlaceHolder": "irr"
+						},
+						{
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "roi",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Caption": "ROI",
+							"PlaceHolder": "roi"
+						}
+					],
+					"Caption": "Investment Details",
+					"Visible": true
+				},
+				{
+					"Controls": [
+						{
+							"_Type": "Control.Type.FormCell.Note",
+							"_Name": "description",
+							"IsEditable": true,
+							"IsVisible": true,
+							"PlaceHolder": "PlaceHolder"
+						}
+					],
+					"Caption": "Description",
+					"Visible": true
+				},
+
+				{
+					"Controls": [
+						{
+							"Target": "",
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "energy_efficiency",
+							"Caption": "Energy Efficiency %"
+						},
+						{
+							"Target": "",
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "co2_efficiency",
+							"Caption": "CO2 Efficiency %"
+						},
+						{
+							"Target": "",
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "energy_cost_savings",
+							"Caption": "Energy Cost Saving %"
+						},
+						{
+							"Target": "",
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "water_savings",
+							"Caption": "Water Saving %"
+						},
+                        {
+                            "_Type": "Control.Type.FormCell.Document",
+                            "_Name": "attachment",
+                            "Caption": "Attachments"
+                        }
+					],
+					"Target": "",
+					"Caption": "Sustainability",
+					"Visible": true
+				}
+			],
+			"_Name": "FormCellContainer",
+			"_Type": "Control.Type.FormCellContainer"
+		}
+	],
+	"_Type": "Page",
+	"_Name": "Capex_Create"
+}

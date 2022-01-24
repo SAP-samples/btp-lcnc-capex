@@ -1,0 +1,180 @@
+{
+	"Controls": [
+		{
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable0",
+			"Sections": [
+				{
+					"KeyAndValues": [
+						{
+							"Value": "{#Application/#ClientData/WorkflowUsertask/taskData/CreatedBy}",
+							"_Name": "KeyValue0",
+							"KeyName": "Created By"
+						},
+						{
+							"Value": "{#Application/#ClientData/WorkflowUsertask/taskData/CreatedOn}",
+							"_Name": "KeyValue1",
+							"KeyName": "Created On"
+						},
+						{
+							"Value": "{#Application/#ClientData/WorkflowUsertask/taskData/Priority}",
+							"_Name": "KeyValue2",
+							"KeyName": "Priority"
+						},
+						{
+							"_Name": "KeyValue3",
+							"KeyName": "",
+							"Value": ""
+						}
+					],
+					"_Type": "Section.Type.KeyValue",
+					"_Name": "SectionKeyValue0",
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"MaxItemCount": 1,
+					"Layout": {
+						"NumberOfColumns": 2
+					}
+				},
+				{
+					"Controls": [
+					],
+					"Visible": false,
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"_Type": "Section.Type.FormCell",
+					"_Name": "SectionFormCell"
+				},
+				{
+					"KeyAndValues": [
+						{
+							"Value": "{requestid}",
+							"_Name": "KeyValue8",
+							"KeyName": "requestid"
+						},
+						{
+							"Value": "{title}",
+							"_Name": "KeyValue9",
+							"KeyName": "title"
+						},
+						{
+							"Value": "{firstname}",
+							"_Name": "KeyValue10",
+							"KeyName": "firstname"
+						},
+						{
+							"Value": "{lastname}",
+							"_Name": "KeyValue11",
+							"KeyName": "lastname"
+						},
+						{
+							"Value": "{email}",
+							"_Name": "KeyValue12",
+							"KeyName": "email"
+						},
+						{
+							"Value": "{userid}",
+							"_Name": "KeyValue13",
+							"KeyName": "userid"
+						},
+						{
+							"Value": "{comments}",
+							"_Name": "KeyValue14",
+							"KeyName": "comments"
+						},
+						{
+							"Value": "{totalcost}",
+							"_Name": "KeyValue15",
+							"KeyName": "totalcost"
+						},
+						{
+							"Value": "{type_type}",
+							"_Name": "KeyValue16",
+							"KeyName": "type_type"
+						},
+						{
+							"Value": "{capex}",
+							"_Name": "KeyValue17",
+							"KeyName": "capex"
+						},
+						{
+							"Value": "{opex}",
+							"_Name": "KeyValue18",
+							"KeyName": "opex"
+						},
+						{
+							"Value": "{currency_code}",
+							"_Name": "KeyValue19",
+							"KeyName": "$(L,Currency)"
+						},
+						{
+							"Value": "{roi}",
+							"_Name": "KeyValue20",
+							"KeyName": "roi"
+						},
+						{
+							"Value": "{irr}",
+							"_Name": "KeyValue21",
+							"KeyName": "irr"
+						},
+						{
+							"Value": "{country_code}",
+							"_Name": "KeyValue22",
+							"KeyName": "$(L,Country)"
+						},
+						{
+							"Value": "{business_unit_business_unit}",
+							"_Name": "KeyValue23",
+							"KeyName": "business_unit_business_unit"
+						},
+						{
+							"Value": "{description}",
+							"_Name": "KeyValue24",
+							"KeyName": "description"
+						},
+						{
+							"Value": "{energy_efficiency}",
+							"_Name": "KeyValue25",
+							"KeyName": "energy_efficiency"
+						},
+						{
+							"Value": "{co2_efficiency}",
+							"_Name": "KeyValue26",
+							"KeyName": "co2_efficiency"
+						},
+						{
+							"Value": "{energy_cost_savings}",
+							"_Name": "KeyValue27",
+							"KeyName": "energy_cost_savings"
+						},
+						{
+							"Value": "{water_savings}",
+							"_Name": "KeyValue28",
+							"KeyName": "water_savings"
+						}
+					],
+					"_Type": "Section.Type.KeyValue",
+					"Target": {
+						"EntitySet": "Capex",
+						"Service": "/CapexApprovalUI/Services/service1.service",
+						"QueryOptions": "$filter={{#Application/#ClientData/WorkflowUsertask/taskData/capEntityFilter}}"
+					},
+					"_Name": "SectionKeyValue1",
+					"Visible": true,
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"MaxItemCount": 1,
+					"Layout": {
+						"NumberOfColumns": 1
+					}
+				}
+			]
+		}
+	],
+	"_Type": "Page",
+	"_Name": "Main",
+	"Caption": "Request"
+}

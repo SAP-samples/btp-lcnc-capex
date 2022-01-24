@@ -1,0 +1,37 @@
+{
+    "CreateLinks": [],
+    "OnFailure": "/CapexRequests/Actions/CreateEntityFailureMessage.action",
+    "OnSuccess": "/CapexRequests/Actions/CreateEntitySuccessMessage.action",
+    "Properties": {
+ 		"requestid": "#Control:requestid/#Value",
+		"title": "#Control:title/#Value",
+		"firstname": "#Control:firstname/#Value",
+		"lastname": "#Control:lastname/#Value",
+		"email": "#Control:email/#Value",
+		"userid": "#Control:userid/#Value",
+		"comments": "#Control:comments/#Value",
+		"totalcost": "#Control:totalcost/#Value",
+		"type_type": "#Control:type_listpicker/#SelectedValue",
+		"capex": "#Control:capex/#Value",
+		"opex": "#Control:opex/#Value",
+		"currency_code": "#Control:currency_listpicker/#SelectedValue",
+		"roi": "#Control:roi/#Value",
+		"irr": "#Control:irr/#Value",
+		"country_code": "#Control:country_listpicker/#SelectedValue",
+		"business_unit_business_unit": "#Control:businessunit_listpicker/#SelectedValue",
+		"description": "#Control:description/#Value",
+		"energy_efficiency": "#Control:energy_efficiency/#Value",
+		"co2_efficiency": "#Control:co2_efficiency/#Value",
+		"energy_cost_savings": "#Control:energy_cost_savings/#Value",
+		"water_savings": "#Control:water_savings/#Value",
+		"folder_id": "#Control:attachment/#Value"
+    },
+    "Target": {
+        "EntitySet": "Capex",
+        "Service": "/CapexRequests/Services/service1.service"
+    },
+    "ActionResult": {
+        "_Name": "create"
+    },
+    "_Type": "Action.Type.ODataService.CreateEntity"
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title> Project Preview </title>
+    <script src="shared-config.js"></script>
+    <script src="https://openui5.hana.ondemand.com/1.94.0/resources/sap-ui-core.js" 
+            id="sap-ui-bootstrap"
+            data-sap-ui-theme='sap_fiori_3' 
+            data-sap-ui-bindingSyntax="complex" 
+            data-sap-ui-xx-bindingSyntax="complex"
+            data-sap-ui-resourceroots='{"assets": "assets"}' 
+            data-sap-ui-libs="sap.m,sap.uxap,sap.ui.layout,sap.f">
+    </script>
+    <link rel="stylesheet" href="assets/preview.css">
+</head>
+
+<body id="body" class="sapUiBody">
+    <script>
+        "use strict";
+        sap.ui.localResources("assets");
+        (function (jQuery, App, Page) {
+            sap.ui.getCore().attachInit(function () {
+                sap.ui.define([
+                    "sap/ui/core/mvc/Controller",
+                    "sap/ui/model/json/JSONModel"
+                ], function (Controller, JSONModel) {
+                    return Controller.extend("PreviewController", {
+                        onInit: function () {
+
+                            const data = {"Services":[{"ServiceName":"MainOnlineService","DetailsURL":"./serviceonline/","Metadata":"./serviceonline/$metadata","Entities":[{"Name":"Capex","URL":"./serviceonline/Capex","FioriURL":"$fiori-preview/MainOnlineService/Capex#preview-app"},{"Name":"CapexType","URL":"./serviceonline/CapexType","FioriURL":"$fiori-preview/MainOnlineService/CapexType#preview-app"},{"Name":"BusinessUnits","URL":"./serviceonline/BusinessUnits","FioriURL":"$fiori-preview/MainOnlineService/BusinessUnits#preview-app"}],"EntitiesCount":3}],"WorkflowAppsData":[{"Header":"Experience User Inbox","SubHeader":"View and perform actions (search, filter, sort and group) on your <strong>workflow tasks.</strong>","Info":"Process tasks using custom actions to release and share the tasks via e-mail.","Icon":"sap-icon://inbox","WorkflowItemURL":"../comsapbpmworkflow.crossfndfioriinbox/inbox.html"},{"Header":"Monitor Workflow Instances","SubHeader":"View the list of workflow instances and perform actions (search and filter) on your <strong>workflow instances.</strong>","Info":"Manage the current context and executed activities in the workflow instances.","Icon":"sap-icon://instance","WorkflowItemURL":"../comsapbpmworkflow.comsapbpmmonitorworkflow/index_mw.html#/workflowInstances"},{"Header":"Monitor Workflow Definitions","SubHeader":"View and perform actions (search, filter and start) on deployed <strong>workflow definitions.</strong>","Info":"Download and configure workflow models for the latest deployed version of the workflow definitions.","Icon":"sap-icon://workflow-tasks","WorkflowItemURL":"../comsapbpmworkflow.comsapbpmmonitorworkflow/index_mw.html#/workflowDefinitions"}]}
+                            this.getView().setModel(new JSONModel(data));
+                        }
+                    });
+                });
+                var oApp = new App()
+                var previewView = sap.ui.view({
+                    viewName: "assets.Preview",
+                    type: sap.ui.core.mvc.ViewType.XML
+                });
+                oApp.addPage(new Page({
+                    content: [previewView],
+                    showHeader: false
+                })).placeAt("content");
+            });
+
+        }(jQuery, sap.m.App, sap.m.Page));
+    </script>
+    <div id="content"></div>
+</body>
+
+</html>

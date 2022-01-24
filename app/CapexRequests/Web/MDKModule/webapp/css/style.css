@@ -1,0 +1,26 @@
+/* Enter your custom styles here */
+/*
+.mdkcontainer {
+    position: absolute !important;
+    left: 0 !important;
+    right: 0 !important;
+    top: 0 !important;
+    bottom: 0 !important;
+}
+*/
+html,
+body,
+#containerDiv,
+#containerDiv>.sapUiComponentContainer,
+#containerDiv>.sapUiComponentContainer>div,
+.sapUiComponentContainer>div>.sapUiView,
+.mdkContainer,
+.mdkContainer>div,
+.mdkframe {
+    margin: 0;
+    padding: 0;
+    width: 100% !important;
+    height: 100% !important; 
+    overflow: hidden;
+    border: none;
+}

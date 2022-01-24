@@ -1,0 +1,79 @@
+{
+	"Credential": "cf",
+	"CF": {
+		"Target": "",
+		"Organization": "",
+		"Space": "",
+		"Deploy": {
+			"Description": "Capex Approval Workflow Task UI",
+			"WebClient": {
+				"Version": "",
+				"URL": ""
+			},
+			"Destination": [
+				{
+					"CF": "capex-app-srv",
+					"MDK": "../serviceonline/",
+					"URL": ""
+				}
+			]
+		}
+	},
+	"MobileService": {
+		"Type": "standard",
+		"AdminAPI": "",
+		"AppId": "lcap.capex.CapexApprovalUI",
+		"Destination": []
+	},
+	"Onboarding": {
+		"Schema": "sapmobilesvcs",
+		"TimeZone": "UTC",
+		"URL": ""
+	},
+	"LCAP": {
+		"Service": [
+			{
+				"mdk": "CapexApprovalUI/Services/service1.service",
+				"cap": {
+					"name": "MainOnlineService",
+					"sourcePath": "srv/service.cds",
+					"path": "/serviceonline/",
+					"entryPath": "/serviceonline",
+					"destination": "capex-app-srv",
+					"value": "0"
+				},
+				"links": [
+					{
+						"entity": "MainOnlineService.Capex",
+						"files": [
+							"CapexApprovalUI/Pages/Main.page",
+							"CapexApprovalUI/Actions/UserTask/DecisionUpdateEntity.action",
+							"CapexApprovalUI/Actions/UserTask/ReadFromService.action"
+						]
+					}
+				]
+			}
+		],
+		"sourceTemplate": {
+			"id": "html5moduletemplates.basicSAPUI5ApplicationProjectModule",
+			"version": "1.40.12"
+		},
+		"UserTask": {
+			"decisionButtons": [
+				{
+					"buttonId": "approve",
+					"buttonName": "Approve",
+					"buttonType": "positive"
+				},
+				{
+					"buttonId": "reject",
+					"buttonName": "Reject",
+					"buttonType": "negative"
+				}
+			],
+			"capEntityKeyTypes": {
+				"ID": "Guid"
+			}
+		}
+	}
+}

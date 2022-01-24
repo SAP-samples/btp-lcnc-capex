@@ -1,0 +1,79 @@
+{
+	"Caption": "Capex Requests",
+	"ActionBar": {
+		"Items": [
+			{
+				"OnPress": "/CapexRequests/Actions/Capex/NavToCapex_Create.action",
+				"Position": "Right",
+				"SystemItem": "Add"
+			}
+		]
+	},
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"Header": {
+						"_Name": "SectionHeader0",
+						"UseTopPadding": false,
+						"Caption": "Capex Requests"
+					},
+					"Footer": {
+						"_Name": "SectionFooter0",
+						"Caption": "All Requests",
+						"AttributeLabel": "/CapexRequests/Rules/Capex/Capex_Request_Count.js",
+						"FooterStyle": "attribute",
+						"UseBottomPadding": false
+					},
+					"ObjectCell": {
+						"AccessoryType": "disclosureIndicator",
+						"DetailImageIsCircular": false,
+						"OnPress": "/CapexRequests/Actions/Capex/NavToCapex_Detail.action",
+						"PreserveIconStackSpacing": false,
+						"Title": "{title}",
+						"Subhead": "Request Id {requestid}",
+						"Footnote": "{type/typedescription}",
+						"Description": "{description}",
+						"StatusText": "{capex} {currency_code}",
+						"SubstatusText": "{country/name}"
+					},
+					"Search": {
+						"Enabled": true,
+						"Placeholder": "Item Search",
+						"BarcodeScanner": true,
+						"Delay": 500,
+						"MinimumCharacterThreshold": 3
+					},
+					"DataPaging": {
+						"ShowLoadingIndicator": true,
+						"LoadingIndicatorText": "Loading more items, please wait..."
+					},
+					"Target": {
+						"EntitySet": "Capex",
+						"Service": "/CapexRequests/Services/service1.service",
+						"QueryOptions": "$expand=type,country,business_unit"
+					},
+					"_Type": "Section.Type.ObjectTable"
+				}
+			],
+			"LoadingIndicator": {
+				"Enabled": true,
+				"Text": "Loading, please wait..."
+			},
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable"
+		}
+	],
+	"_Type": "Page",
+	"ToolBar": {
+		"Items": [
+			{
+				"_Name": "LogoutToolbarItem",
+				"_Type": "Control.Type.ToolbarItem",
+				"Caption": "Logout",
+				"OnPress": "/CapexRequests/Actions/Logout.action"
+			}
+		]
+	},
+	"_Name": "Capex_List"
+}
