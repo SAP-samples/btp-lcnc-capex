@@ -1,0 +1,98 @@
+{
+	"Controls": [
+		{
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable",
+			"Sections": [
+				{
+					"Header": {
+						"_Name": "SectionHeader0",
+						"UseTopPadding": false,
+						"Caption": "Capex Requests"
+					},
+					"Footer": {
+						"_Name": "SectionFooter0",
+						"Caption": "All Requests",
+						"AttributeLabel": "/CapexRequests/Rules/Capex/Capex_Request_Count.js",
+						"FooterStyle": "attribute",
+						"UseBottomPadding": false
+					},
+					"_Type": "Section.Type.ObjectTable",
+					"Target": {
+						"EntitySet": "Capex",
+						"Service": "/CapexRequests/Services/service1.service",
+						"QueryOptions": "$expand=type,country,business_unit"
+					},
+					"_Name": "SectionObjectTable0",
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"ObjectCell": {
+						"Title": "{title}",
+						"Subhead": "Request Id {requestid}",
+						"Footnote": "{type/typedescription}",
+						"Description": "{description}",
+						"StatusText": "{capex} {currency_code}",
+						"SubstatusText": "{country/name}",
+						"DetailImageIsCircular": false,
+						"PreserveIconStackSpacing": false,
+						"AccessoryType": "disclosureIndicator",
+						"OnPress": "/CapexRequests/Actions/Capex/NavToCapex_Detail.action",
+						"ContextMenu": {
+							"Items": [
+							],
+							"PerformFirstActionWithFullSwipe": true
+						}
+					},
+					"Search": {
+						"Enabled": true,
+						"Placeholder": "Item Search",
+						"BarcodeScanner": true,
+						"Delay": 500,
+						"MinimumCharacterThreshold": 3
+					},
+					"DataPaging": {
+						"ShowLoadingIndicator": true,
+						"LoadingIndicatorText": "Loading more items, please wait..."
+					}
+				}
+			],
+			"LoadingIndicator": {
+				"Enabled": true,
+				"Text": "Loading, please wait..."
+			}
+		}
+	],
+	"_Type": "Page",
+	"DataSubscriptions": [
+		"Capex"
+	],
+	"_Name": "Capex_List",
+	"Caption": "Capex Requests",
+	"ActionBar": {
+		"Items": [
+			{
+				"_Name": "ActionBarItem0",
+				"Caption": "",
+				"SystemItem": "Add",
+				"Position": "Right",
+				"IsIconCircular": false,
+				"OnPress": "/CapexRequests/Actions/Capex/NavToCapex_Create.action"
+			}
+		],
+		"_Name": "ActionBar1"
+	},
+	"ToolBar": {
+		"Items": [
+			{
+				"_Type": "Control.Type.ToolbarItem",
+				"_Name": "LogoutToolbarItem",
+				"Caption": "Logout",
+				"Enabled": true,
+				"Visible": true,
+				"Clickable": true,
+				"OnPress": "/CapexRequests/Actions/Logout.action"
+			}
+		]
+	}
+}

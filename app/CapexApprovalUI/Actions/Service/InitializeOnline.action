@@ -1,0 +1,10 @@
+{
+    "Service": "/CapexApprovalUI/Services/service1.service",
+    "_Type": "Action.Type.ODataService.Initialize",
+    "ShowActivityIndicator": true,
+    "OnSuccess": "/CapexApprovalUI/Actions/Service/InitializeOnlineSuccessMessage.action",
+    "OnFailure": "/CapexApprovalUI/Actions/Service/InitializeOnlineFailureMessage.action",
+    "ActionResult": {
+        "_Name": "init"
+    }
+}

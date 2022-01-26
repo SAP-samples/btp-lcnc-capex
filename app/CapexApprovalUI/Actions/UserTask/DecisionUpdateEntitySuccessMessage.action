@@ -1,0 +1,9 @@
+{
+    "Animated": true,
+    "Duration": 2,
+    "Message": "Entity updated",
+    "Icon": "",
+    "IsIconHidden": false,
+    "NumberOfLines": 2,
+    "_Type": "Action.Type.ToastMessage"
+}

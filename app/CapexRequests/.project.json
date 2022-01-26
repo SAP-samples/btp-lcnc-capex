@@ -1,0 +1,93 @@
+{
+	"Credential": "cf",
+	"CF": {
+		"Target": "",
+		"Organization": "",
+		"Space": "",
+		"Deploy": {
+			"Description": "Capex Requests Application",
+			"WebClient": {
+				"Version": "",
+				"URL": ""
+			},
+			"Destination": [
+				{
+					"CF": "capex-app-srv",
+					"MDK": "../serviceonline/",
+					"URL": ""
+				}
+			]
+		}
+	},
+	"MobileService": {
+		"Type": "standard",
+		"AdminAPI": "",
+		"AppId": "lcap.capex.CapexRequests",
+		"Destination": []
+	},
+	"Onboarding": {
+		"Schema": "sapmobilesvcs",
+		"TimeZone": "UTC",
+		"URL": ""
+	},
+	"LCAP": {
+		"FullName": "capex_CapexRequests",
+		"Service": [
+			{
+				"mdk": "CapexRequests/Services/service1.service",
+				"cap": {
+					"name": "MainOnlineService",
+					"sourcePath": "srv/service.cds",
+					"path": "/serviceonline/",
+					"entryPath": "/serviceonline",
+					"destination": "capex-app-srv",
+					"value": "0"
+				},
+				"links": [
+					{
+						"entity": "MainOnlineService.CapexType",
+						"files": [
+							"CapexRequests/Pages/Capex/Capex_Create.page",
+							"CapexRequests/Pages/Capex/Capex_Edit.page"
+						]
+					},
+					{
+						"entity": "MainOnlineService.Countries",
+						"files": [
+							"CapexRequests/Pages/Capex/Capex_Create.page",
+							"CapexRequests/Pages/Capex/Capex_Edit.page"
+						]
+					},
+					{
+						"entity": "MainOnlineService.BusinessUnits",
+						"files": [
+							"CapexRequests/Pages/Capex/Capex_Create.page",
+							"CapexRequests/Pages/Capex/Capex_Edit.page"
+						]
+					},
+					{
+						"entity": "MainOnlineService.Currencies",
+						"files": [
+							"CapexRequests/Pages/Capex/Capex_Create.page",
+							"CapexRequests/Pages/Capex/Capex_Edit.page"
+						]
+					},
+					{
+						"entity": "MainOnlineService.Capex",
+						"files": [
+							"CapexRequests/Pages/Capex/Capex_Detail.page",
+							"CapexRequests/Pages/Capex/Capex_List.page",
+							"CapexRequests/Actions/Capex/Capex_CreateEntity.action",
+							"CapexRequests/Actions/Capex/Capex_DeleteEntity.action",
+							"CapexRequests/Actions/Capex/Capex_UpdateEntity.action"
+						]
+					}
+				]
+			}
+		],
+		"sourceTemplate": {
+			"id": "html5moduletemplates.basicSAPUI5ApplicationProjectModule",
+			"version": "1.40.12"
+		}
+	}
+}

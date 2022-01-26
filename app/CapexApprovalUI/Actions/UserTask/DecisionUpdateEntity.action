@@ -1,0 +1,19 @@
+{
+    "_Type": "Action.Type.ODataService.UpdateEntity",
+    "Target": {
+        "EntitySet": "Capex",
+        "Service": "/CapexApprovalUI/Services/service1.service",
+        "QueryOptions": "$filter={{#Application/#ClientData/WorkflowUsertask/taskData/capEntityFilter}}"
+    },
+    "Properties": {
+
+        "taskDecisionId": "{#Application/#ClientData/WorkflowUsertask/taskAction/taskDecisionID}",
+        "taskInstanceId": "{#Application/#ClientData/WorkflowUsertask/taskData/InstanceID}"
+    },
+    "UpdateLinks": [],
+    "ActionResult": {
+        "_Name": "update"
+    },
+    "OnSuccess": "/CapexApprovalUI/Rules/UserTask/OnDecisionUpdateEntitySuccess.js",
+    "OnFailure": "/CapexApprovalUI/Actions/UserTask/DecisionUpdateEntityFailureMessage.action"
+}

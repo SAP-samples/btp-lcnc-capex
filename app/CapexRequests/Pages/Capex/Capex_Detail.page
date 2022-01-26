@@ -1,0 +1,236 @@
+{
+	"Controls": [
+		{
+			"DataSubscriptions": [
+			],
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable",
+			"Sections": [
+				{
+					"ObjectHeader": {
+						"Subhead": "Request Id {requestid}",
+						"Footnote": "{type/typedescription}",
+						"Description": "{description}",
+						"StatusText": "{capex} {currency_code}",
+						"SubstatusText": "{country/name}",
+						"HeadlineText": "{title}",
+						"Tags": [
+						],
+						"Target": {
+							"Service": "/CapexRequests/Services/service1.service",
+							"EntitySet": "Capex",
+							"QueryOptions": "$expand=type,country,business_unit&$filter=ID eq {ID}"
+						}
+					},
+					"_Type": "Section.Type.ObjectHeader",
+					"_Name": "SectionObjectHeader0"
+				},
+				{
+					"KeyAndValues": [
+						{
+							"Value": "{firstname}",
+							"_Name": "KeyValue0",
+							"KeyName": "First Name",
+							"Visible": true
+						},
+						{
+							"Value": "{lastname}",
+							"_Name": "KeyValue1",
+							"KeyName": "Last Name",
+							"Visible": true
+						},
+						{
+							"Value": "{email}",
+							"_Name": "KeyValue2",
+							"KeyName": "Email",
+							"Visible": true
+						},
+						{
+							"Value": "{userid}",
+							"_Name": "KeyValue3",
+							"KeyName": "User ID",
+							"Visible": true
+						}
+					],
+					"MaxItemCount": 1,
+					"_Type": "Section.Type.KeyValue",
+					"_Name": "SectionKeyValue1",
+					"Header": {
+						"_Name": "SectionHeader0",
+						"UseTopPadding": false,
+						"Caption": "Requestor"
+					},
+					"Visible": true,
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Layout": {
+						"NumberOfColumns": 2
+					}
+				},
+				{
+					"KeyAndValues": [
+						{
+							"Value": "{country/name}",
+							"_Name": "KeyValue4",
+							"KeyName": "Country/Region",
+							"Visible": true
+						},
+						{
+							"Value": "{business_unit/name}",
+							"_Name": "KeyValue5",
+							"KeyName": "Business Unit",
+							"Visible": true
+						},
+						{
+							"Value": "{capex}",
+							"_Name": "KeyValue6",
+							"KeyName": "CAPEX",
+							"Visible": true
+						},
+						{
+							"Value": "{opex}",
+							"_Name": "KeyValue7",
+							"KeyName": "OPEX",
+							"Visible": true
+						},
+						{
+							"Value": "{totalcost}",
+							"_Name": "KeyValue8",
+							"KeyName": "Total Cost",
+							"Visible": true
+						},
+						{
+							"Value": "{currency_code}",
+							"_Name": "KeyValue9",
+							"KeyName": "Currency",
+							"Visible": true
+						},
+						{
+							"Value": "{irr}",
+							"_Name": "KeyValue10",
+							"KeyName": "IRR",
+							"Visible": true
+						},
+						{
+							"Value": "{roi}",
+							"_Name": "KeyValue11",
+							"KeyName": "ROI",
+							"Visible": true
+						}
+					],
+					"MaxItemCount": 1,
+					"_Type": "Section.Type.KeyValue",
+					"_Name": "SectionKeyValue2",
+					"Header": {
+						"_Name": "SectionHeader1",
+						"UseTopPadding": false,
+						"Caption": "Investment Details"
+					},
+					"Visible": true,
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Layout": {
+						"NumberOfColumns": 2
+					}
+				},
+				{
+					"KeyAndValues": [
+						{
+							"Value": "{energy_efficiency}",
+							"_Name": "KeyValue12",
+							"KeyName": "Energy Efficiency %",
+							"Visible": true
+						},
+						{
+							"Value": "{co2_efficiency}",
+							"_Name": "KeyValue13",
+							"KeyName": "CO2 Efficiency %",
+							"Visible": true
+						},
+						{
+							"Value": "{energy_cost_savings}",
+							"_Name": "KeyValue14",
+							"KeyName": "Energy Cost Saving %",
+							"Visible": true
+						},
+						{
+							"Value": "{water_savings}",
+							"_Name": "KeyValue15",
+							"KeyName": "Water Saving %",
+							"Visible": true
+						}
+					],
+					"MaxItemCount": 1,
+					"_Type": "Section.Type.KeyValue",
+					"_Name": "SectionKeyValue3",
+					"Header": {
+						"_Name": "SectionHeader2",
+						"UseTopPadding": false,
+						"Caption": "Sustainability"
+					},
+					"Visible": true,
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Layout": {
+						"NumberOfColumns": 2
+					}
+				},
+				{
+					"Controls": [
+						{
+							"Value": "{folder_id}",
+							"_Type": "Control.Type.FormCell.Document",
+							"_Name": "attachments",
+							"IsEditable": false
+						}
+					],
+					"Header": {
+						"_Name": "SectionHeader3",
+						"UseTopPadding": true,
+						"Caption": "Attachments"
+					},
+					"Footer": {
+						"_Name": "SectionFooter0",
+						"UseBottomPadding": false
+					},
+					"Visible": true,
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"_Type": "Section.Type.FormCell",
+					"_Name": "FormCellSection1"
+				}
+			]
+		}
+	],
+	"_Type": "Page",
+	"DataSubscriptions": [
+		"Capex"
+	],
+	"_Name": "Capex_Detail",
+	"Caption": "Request Details",
+	"ActionBar": {
+		"Items": [
+			{
+				"_Name": "ActionBarItem0",
+				"Caption": "",
+				"SystemItem": "Edit",
+				"Position": "Right",
+				"IsIconCircular": false,
+				"OnPress": "/CapexRequests/Actions/Capex/NavToCapex_Edit.action"
+			},
+			{
+				"_Name": "ActionBarItem1",
+				"Caption": "",
+				"SystemItem": "Trash",
+				"Position": "Right",
+				"IsIconCircular": false,
+				"OnPress": "/CapexRequests/Rules/Capex/Capex_DeleteConfirmation.js"
+			}
+		],
+		"_Name": "ActionBar1"
+	}
+}
