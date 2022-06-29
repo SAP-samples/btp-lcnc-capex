@@ -1,6 +1,7 @@
 # Enterprise Capital Expenditure Management Application
 
-[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/btp-lcnc-espm)](https://api.reuse.software/info/github.com/SAP-samples/btp-lcnc-espm)
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/btp-lcnc-capex)](https://api.reuse.software/info/github.com/SAP-samples/btp-lcnc-capex)
+
 
 ## Description
 
