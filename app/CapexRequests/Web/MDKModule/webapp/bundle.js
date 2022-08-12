@@ -11,6 +11,188 @@
 return /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./build.definitions/CapexRequests/i18n/i18n.properties":
+/*!**************************************************************!*\
+  !*** ./build.definitions/CapexRequests/i18n/i18n.properties ***!
+  \**************************************************************/
+/***/ ((module) => {
+
+module.exports = "CreatedAt=CreatedAt\nDescription=Description\nCreatedBy=CreatedBy\nChangedAt=ChangedAt\nChangedBy=ChangedBy\nCurrency=Currency\nCountry=Country\nName=Name\nCurrencyCode=CurrencyCode\nCurrencySymbol=CurrencySymbol\nCountryCode=CountryCode\n"
+
+/***/ }),
+
+/***/ "./build.definitions/CapexRequests/Styles/Styles.css":
+/*!***********************************************************!*\
+  !*** ./build.definitions/CapexRequests/Styles/Styles.css ***!
+  \***********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+// Imports
+var ___CSS_LOADER_API_SOURCEMAP_IMPORT___ = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/cssWithMappingToString.js */ "../../node_modules/css-loader/dist/runtime/cssWithMappingToString.js");
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/api.js */ "../../node_modules/css-loader/dist/runtime/api.js");
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(___CSS_LOADER_API_SOURCEMAP_IMPORT___);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "/* The LESS stylesheet provides the ability to define styling styles that can be used to style the UI in the MDK app.\n\nExamples:\n\n@mdkYellow1: #ffbb33;\n@mdkRed1: #ff0000;\n\n//// By-Type style: All Pages in the application will now have a yellow background\ndiv.MDKPage\n\n{ background-color: @mdkYellow1; }\n//// By-Name style: All Buttons with _Name == \"BlueButton\" will now have this style\n#BlueButton\n\n{ color: @mdkYellow1; background-color: #0000FF; }\n//// By-Class style: These style classes can be referenced from rules and set using ClientAPI setStyle function\n\n.MyButton\n\n{ color: @mdkYellow1; background-color: @mdkRed1; }\n*/\n", "",{"version":3,"sources":["webpack://./build.definitions/CapexRequests/Styles/Styles.css"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;;;;;CAoBC","sourcesContent":["/* The LESS stylesheet provides the ability to define styling styles that can be used to style the UI in the MDK app.\n\nExamples:\n\n@mdkYellow1: #ffbb33;\n@mdkRed1: #ff0000;\n\n//// By-Type style: All Pages in the application will now have a yellow background\ndiv.MDKPage\n\n{ background-color: @mdkYellow1; }\n//// By-Name style: All Buttons with _Name == \"BlueButton\" will now have this style\n#BlueButton\n\n{ color: @mdkYellow1; background-color: #0000FF; }\n//// By-Class style: These style classes can be referenced from rules and set using ClientAPI setStyle function\n\n.MyButton\n\n{ color: @mdkYellow1; background-color: @mdkRed1; }\n*/\n"],"sourceRoot":""}]);
+// Exports
+module.exports = ___CSS_LOADER_EXPORT___;
+
+
+/***/ }),
+
+/***/ "./build.definitions/CapexRequests/Styles/Styles.less":
+/*!************************************************************!*\
+  !*** ./build.definitions/CapexRequests/Styles/Styles.less ***!
+  \************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+// Imports
+var ___CSS_LOADER_API_SOURCEMAP_IMPORT___ = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/cssWithMappingToString.js */ "../../node_modules/css-loader/dist/runtime/cssWithMappingToString.js");
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/api.js */ "../../node_modules/css-loader/dist/runtime/api.js");
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(___CSS_LOADER_API_SOURCEMAP_IMPORT___);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "/* The LESS stylesheet provides the ability to define styling styles that can be used to style the UI in the MDK app.\n\nExamples:\n\n@mdkYellow1: #ffbb33;\n@mdkRed1: #ff0000;\n\n//// By-Type style: All Pages in the application will now have a yellow background\nPage\n\n{ background-color: @mdkYellow1; }\n//// By-Name style: All Buttons with _Name == \"BlueButton\" will now have this style\n#BlueButton\n\n{ color: @mdkYellow1; background-color: #0000FF; }\n//// By-Class style: These style classes can be referenced from rules and set using ClientAPI setStyle function\n\n.MyButton\n\n{ color: @mdkYellow1; background-color: @mdkRed1; }\n*/", "",{"version":3,"sources":["webpack://./build.definitions/CapexRequests/Styles/Styles.less"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;;;;;CAoBC","sourcesContent":["/* The LESS stylesheet provides the ability to define styling styles that can be used to style the UI in the MDK app.\n\nExamples:\n\n@mdkYellow1: #ffbb33;\n@mdkRed1: #ff0000;\n\n//// By-Type style: All Pages in the application will now have a yellow background\nPage\n\n{ background-color: @mdkYellow1; }\n//// By-Name style: All Buttons with _Name == \"BlueButton\" will now have this style\n#BlueButton\n\n{ color: @mdkYellow1; background-color: #0000FF; }\n//// By-Class style: These style classes can be referenced from rules and set using ClientAPI setStyle function\n\n.MyButton\n\n{ color: @mdkYellow1; background-color: @mdkRed1; }\n*/"],"sourceRoot":""}]);
+// Exports
+module.exports = ___CSS_LOADER_EXPORT___;
+
+
+/***/ }),
+
+/***/ "./build.definitions/CapexRequests/Styles/Styles.nss":
+/*!***********************************************************!*\
+  !*** ./build.definitions/CapexRequests/Styles/Styles.nss ***!
+  \***********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+// Imports
+var ___CSS_LOADER_API_SOURCEMAP_IMPORT___ = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/cssWithMappingToString.js */ "../../node_modules/css-loader/dist/runtime/cssWithMappingToString.js");
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/api.js */ "../../node_modules/css-loader/dist/runtime/api.js");
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(___CSS_LOADER_API_SOURCEMAP_IMPORT___);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "", "",{"version":3,"sources":[],"names":[],"mappings":"","sourceRoot":""}]);
+// Exports
+module.exports = ___CSS_LOADER_EXPORT___;
+
+
+/***/ }),
+
+/***/ "../../node_modules/css-loader/dist/runtime/api.js":
+/*!*********************************************************!*\
+  !*** ../../node_modules/css-loader/dist/runtime/api.js ***!
+  \*********************************************************/
+/***/ ((module) => {
+
+"use strict";
+
+
+/*
+  MIT License http://www.opensource.org/licenses/mit-license.php
+  Author Tobias Koppers @sokra
+*/
+// css base code, injected by the css-loader
+// eslint-disable-next-line func-names
+module.exports = function (cssWithMappingToString) {
+  var list = []; // return the list of modules as css string
+
+  list.toString = function toString() {
+    return this.map(function (item) {
+      var content = cssWithMappingToString(item);
+
+      if (item[2]) {
+        return "@media ".concat(item[2], " {").concat(content, "}");
+      }
+
+      return content;
+    }).join("");
+  }; // import a list of modules into the list
+  // eslint-disable-next-line func-names
+
+
+  list.i = function (modules, mediaQuery, dedupe) {
+    if (typeof modules === "string") {
+      // eslint-disable-next-line no-param-reassign
+      modules = [[null, modules, ""]];
+    }
+
+    var alreadyImportedModules = {};
+
+    if (dedupe) {
+      for (var i = 0; i < this.length; i++) {
+        // eslint-disable-next-line prefer-destructuring
+        var id = this[i][0];
+
+        if (id != null) {
+          alreadyImportedModules[id] = true;
+        }
+      }
+    }
+
+    for (var _i = 0; _i < modules.length; _i++) {
+      var item = [].concat(modules[_i]);
+
+      if (dedupe && alreadyImportedModules[item[0]]) {
+        // eslint-disable-next-line no-continue
+        continue;
+      }
+
+      if (mediaQuery) {
+        if (!item[2]) {
+          item[2] = mediaQuery;
+        } else {
+          item[2] = "".concat(mediaQuery, " and ").concat(item[2]);
+        }
+      }
+
+      list.push(item);
+    }
+  };
+
+  return list;
+};
+
+/***/ }),
+
+/***/ "../../node_modules/css-loader/dist/runtime/cssWithMappingToString.js":
+/*!****************************************************************************!*\
+  !*** ../../node_modules/css-loader/dist/runtime/cssWithMappingToString.js ***!
+  \****************************************************************************/
+/***/ ((module) => {
+
+"use strict";
+
+
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+module.exports = function cssWithMappingToString(item) {
+  var _item = _slicedToArray(item, 4),
+      content = _item[1],
+      cssMapping = _item[3];
+
+  if (typeof btoa === "function") {
+    // eslint-disable-next-line no-undef
+    var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(cssMapping))));
+    var data = "sourceMappingURL=data:application/json;charset=utf-8;base64,".concat(base64);
+    var sourceMapping = "/*# ".concat(data, " */");
+    var sourceURLs = cssMapping.sources.map(function (source) {
+      return "/*# sourceURL=".concat(cssMapping.sourceRoot || "").concat(source, " */");
+    });
+    return [content].concat(sourceURLs).concat([sourceMapping]).join("\n");
+  }
+
+  return [content].join("\n");
+};
+
+/***/ }),
+
 /***/ "./build.definitions/CapexRequests/Rules/Capex/Capex_DeleteConfirmation.js":
 /*!*********************************************************************************!*\
   !*** ./build.definitions/CapexRequests/Rules/Capex/Capex_DeleteConfirmation.js ***!
@@ -220,185 +402,43 @@ module.exports = JSON.parse('{"compilerOptions":{"target":"es2015","module":"esn
 
 /***/ }),
 
-/***/ "./build.definitions/CapexRequests/i18n/i18n.properties":
-/*!**************************************************************!*\
-  !*** ./build.definitions/CapexRequests/i18n/i18n.properties ***!
-  \**************************************************************/
+/***/ "./build.definitions/CapexRequests/Pages/Capex/Capex_Create.page":
+/*!***********************************************************************!*\
+  !*** ./build.definitions/CapexRequests/Pages/Capex/Capex_Create.page ***!
+  \***********************************************************************/
 /***/ ((module) => {
 
-module.exports = "CreatedAt=CreatedAt\nDescription=Description\nCreatedBy=CreatedBy\nChangedAt=ChangedAt\nChangedBy=ChangedBy\nCurrency=Currency\nCountry=Country\nName=Name\nCurrencyCode=CurrencyCode\nCurrencySymbol=CurrencySymbol\nCountryCode=CountryCode\n"
+module.exports = {"ActionBar":{"Items":[{"OnPress":"/CapexRequests/Actions/CloseModalPage_Cancel.action","Position":"Left","SystemItem":"Cancel"},{"OnPress":"/CapexRequests/Actions/Capex/Capex_CreateEntity.action","Position":"Right","SystemItem":"Save"}]},"Caption":"New Capital Expenditure Request","Controls":[{"Sections":[{"Target":"","Controls":[{"_Type":"Control.Type.FormCell.SimpleProperty","_Name":"firstname","IsEditable":true,"IsVisible":true,"Caption":"First Name","PlaceHolder":"enter requester firstname "},{"_Type":"Control.Type.FormCell.SimpleProperty","_Name":"lastname","IsEditable":true,"IsVisible":true,"Caption":"Last Name","PlaceHolder":"enter requester lastname"},{"_Type":"Control.Type.FormCell.SimpleProperty","_Name":"email","IsEditable":true,"IsVisible":true,"Caption":"Email Address","PlaceHolder":"enter requester email address","KeyboardType":"Email"},{"_Type":"Control.Type.FormCell.SimpleProperty","_Name":"userid","IsEditable":true,"IsVisible":true,"Caption":"User ID","PlaceHolder":"PlaceHolder"}],"Caption":"Requester","Visible":true},{"Controls":[{"_Type":"Control.Type.FormCell.Note","_Name":"comments","IsEditable":true,"IsVisible":true,"PlaceHolder":"enter comments to the approver"}],"Caption":"Comments from Requester","Visible":true},{"Controls":[{"_Type":"Control.Type.FormCell.SimpleProperty","_Name":"requestid","IsEditable":true,"IsVisible":true,"Caption":"Request ID","PlaceHolder":"requestid"},{"_Type":"Control.Type.FormCell.SimpleProperty","_Name":"title","IsEditable":true,"IsVisible":true,"Caption":"Title","PlaceHolder":"title"},{"_Type":"Control.Type.FormCell.ListPicker","_Name":"type_listpicker","IsPickerDismissedOnSelection":true,"IsEditable":true,"IsVisible":true,"AllowMultipleSelection":false,"AllowEmptySelection":false,"Caption":"Type","DataPaging":{"ShowLoadingIndicator":false,"PageSize":50},"PickerPrompt":"Please select Capex Type","IsSelectedSectionEnabled":false,"IsSearchCancelledAfterSelection":false,"AllowDefaultValueIfOneItem":false,"Search":{"Enabled":true,"MinimumCharacterThreshold":3},"PickerItems":{"Target":{"Service":"/CapexRequests/Services/service1.service","EntitySet":"CapexType"},"DisplayValue":"{typedescription}","ReturnValue":"{type}"}},{"_Type":"Control.Type.FormCell.ListPicker","_Name":"country_listpicker","IsPickerDismissedOnSelection":true,"IsEditable":true,"IsVisible":true,"AllowMultipleSelection":false,"AllowEmptySelection":false,"Caption":"Country/Region","DataPaging":{"ShowLoadingIndicator":false,"PageSize":50},"PickerPrompt":"Please select country","IsSelectedSectionEnabled":true,"IsSearchCancelledAfterSelection":false,"AllowDefaultValueIfOneItem":false,"Search":{"Enabled":true,"MinimumCharacterThreshold":3},"PickerItems":{"Target":{"Service":"/CapexRequests/Services/service1.service","EntitySet":"Countries"},"DisplayValue":"{name}","ReturnValue":"{code}"}},{"_Type":"Control.Type.FormCell.ListPicker","_Name":"businessunit_listpicker","IsPickerDismissedOnSelection":true,"IsEditable":true,"IsVisible":true,"AllowMultipleSelection":false,"AllowEmptySelection":false,"Caption":"Business Unit","DataPaging":{"ShowLoadingIndicator":false,"PageSize":50},"PickerPrompt":"Please select Business Unit","IsSelectedSectionEnabled":true,"IsSearchCancelledAfterSelection":false,"AllowDefaultValueIfOneItem":false,"Search":{"Enabled":true,"MinimumCharacterThreshold":3},"PickerItems":{"Target":{"Service":"/CapexRequests/Services/service1.service","EntitySet":"BusinessUnits"},"DisplayValue":"{name}","ReturnValue":"{business_unit}"}},{"_Type":"Control.Type.FormCell.SimpleProperty","_Name":"capex","IsEditable":true,"IsVisible":true,"Caption":"CAPEX","PlaceHolder":"capex"},{"_Type":"Control.Type.FormCell.SimpleProperty","_Name":"opex","IsEditable":true,"IsVisible":true,"Caption":"OPEX","PlaceHolder":"opex"},{"_Type":"Control.Type.FormCell.SimpleProperty","_Name":"totalcost","IsEditable":true,"IsVisible":true,"Caption":"Total Cost","PlaceHolder":"total cost"},{"_Type":"Control.Type.FormCell.ListPicker","_Name":"currency_listpicker","IsPickerDismissedOnSelection":true,"IsEditable":true,"IsVisible":true,"AllowMultipleSelection":false,"AllowEmptySelection":false,"Caption":"Currency","DataPaging":{"ShowLoadingIndicator":false,"PageSize":50},"PickerPrompt":"Please select Currency","IsSelectedSectionEnabled":true,"IsSearchCancelledAfterSelection":false,"AllowDefaultValueIfOneItem":false,"Search":{"Enabled":true},"PickerItems":{"Target":{"Service":"/CapexRequests/Services/service1.service","EntitySet":"Currencies"},"DisplayValue":"{name}","ReturnValue":"{code}"}},{"_Type":"Control.Type.FormCell.SimpleProperty","_Name":"irr","IsEditable":true,"IsVisible":true,"Caption":"IRR","PlaceHolder":"irr"},{"_Type":"Control.Type.FormCell.SimpleProperty","_Name":"roi","IsEditable":true,"IsVisible":true,"Caption":"ROI","PlaceHolder":"roi"}],"Caption":"Investment Details","Visible":true},{"Controls":[{"_Type":"Control.Type.FormCell.Note","_Name":"description","IsEditable":true,"IsVisible":true,"PlaceHolder":"PlaceHolder"}],"Caption":"Description","Visible":true},{"Controls":[{"Target":"","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"energy_efficiency","Caption":"Energy Efficiency %"},{"Target":"","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"co2_efficiency","Caption":"CO2 Efficiency %"},{"Target":"","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"energy_cost_savings","Caption":"Energy Cost Saving %"},{"Target":"","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"water_savings","Caption":"Water Saving %"},{"_Type":"Control.Type.FormCell.Document","_Name":"attachment","Caption":"Attachments"}],"Target":"","Caption":"Sustainability","Visible":true}],"_Name":"FormCellContainer","_Type":"Control.Type.FormCellContainer"}],"_Type":"Page","_Name":"Capex_Create"}
 
 /***/ }),
 
-/***/ "./build.definitions/CapexRequests/Styles/Styles.css":
-/*!***********************************************************!*\
-  !*** ./build.definitions/CapexRequests/Styles/Styles.css ***!
-  \***********************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-// Imports
-var ___CSS_LOADER_API_SOURCEMAP_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/cssWithMappingToString.js */ "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js");
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
-var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(___CSS_LOADER_API_SOURCEMAP_IMPORT___);
-// Module
-___CSS_LOADER_EXPORT___.push([module.id, "/* The LESS stylesheet provides the ability to define styling styles that can be used to style the UI in the MDK app.\n\nExamples:\n\n@mdkYellow1: #ffbb33;\n@mdkRed1: #ff0000;\n\n//// By-Type style: All Pages in the application will now have a yellow background\ndiv.MDKPage\n\n{ background-color: @mdkYellow1; }\n//// By-Name style: All Buttons with _Name == \"BlueButton\" will now have this style\n#BlueButton\n\n{ color: @mdkYellow1; background-color: #0000FF; }\n//// By-Class style: These style classes can be referenced from rules and set using ClientAPI setStyle function\n\n.MyButton\n\n{ color: @mdkYellow1; background-color: @mdkRed1; }\n*/\n", "",{"version":3,"sources":["webpack://./build.definitions/CapexRequests/Styles/Styles.css"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;;;;;CAoBC","sourcesContent":["/* The LESS stylesheet provides the ability to define styling styles that can be used to style the UI in the MDK app.\n\nExamples:\n\n@mdkYellow1: #ffbb33;\n@mdkRed1: #ff0000;\n\n//// By-Type style: All Pages in the application will now have a yellow background\ndiv.MDKPage\n\n{ background-color: @mdkYellow1; }\n//// By-Name style: All Buttons with _Name == \"BlueButton\" will now have this style\n#BlueButton\n\n{ color: @mdkYellow1; background-color: #0000FF; }\n//// By-Class style: These style classes can be referenced from rules and set using ClientAPI setStyle function\n\n.MyButton\n\n{ color: @mdkYellow1; background-color: @mdkRed1; }\n*/\n"],"sourceRoot":""}]);
-// Exports
-module.exports = ___CSS_LOADER_EXPORT___;
-
-
-/***/ }),
-
-/***/ "./build.definitions/CapexRequests/Styles/Styles.less":
-/*!************************************************************!*\
-  !*** ./build.definitions/CapexRequests/Styles/Styles.less ***!
-  \************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-// Imports
-var ___CSS_LOADER_API_SOURCEMAP_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/cssWithMappingToString.js */ "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js");
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
-var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(___CSS_LOADER_API_SOURCEMAP_IMPORT___);
-// Module
-___CSS_LOADER_EXPORT___.push([module.id, "/* The LESS stylesheet provides the ability to define styling styles that can be used to style the UI in the MDK app.\n\nExamples:\n\n@mdkYellow1: #ffbb33;\n@mdkRed1: #ff0000;\n\n//// By-Type style: All Pages in the application will now have a yellow background\nPage\n\n{ background-color: @mdkYellow1; }\n//// By-Name style: All Buttons with _Name == \"BlueButton\" will now have this style\n#BlueButton\n\n{ color: @mdkYellow1; background-color: #0000FF; }\n//// By-Class style: These style classes can be referenced from rules and set using ClientAPI setStyle function\n\n.MyButton\n\n{ color: @mdkYellow1; background-color: @mdkRed1; }\n*/", "",{"version":3,"sources":["webpack://./build.definitions/CapexRequests/Styles/Styles.less"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;;;;;CAoBC","sourcesContent":["/* The LESS stylesheet provides the ability to define styling styles that can be used to style the UI in the MDK app.\n\nExamples:\n\n@mdkYellow1: #ffbb33;\n@mdkRed1: #ff0000;\n\n//// By-Type style: All Pages in the application will now have a yellow background\nPage\n\n{ background-color: @mdkYellow1; }\n//// By-Name style: All Buttons with _Name == \"BlueButton\" will now have this style\n#BlueButton\n\n{ color: @mdkYellow1; background-color: #0000FF; }\n//// By-Class style: These style classes can be referenced from rules and set using ClientAPI setStyle function\n\n.MyButton\n\n{ color: @mdkYellow1; background-color: @mdkRed1; }\n*/"],"sourceRoot":""}]);
-// Exports
-module.exports = ___CSS_LOADER_EXPORT___;
-
-
-/***/ }),
-
-/***/ "./build.definitions/CapexRequests/Styles/Styles.nss":
-/*!***********************************************************!*\
-  !*** ./build.definitions/CapexRequests/Styles/Styles.nss ***!
-  \***********************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-// Imports
-var ___CSS_LOADER_API_SOURCEMAP_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/cssWithMappingToString.js */ "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js");
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
-var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(___CSS_LOADER_API_SOURCEMAP_IMPORT___);
-// Module
-___CSS_LOADER_EXPORT___.push([module.id, "", "",{"version":3,"sources":[],"names":[],"mappings":"","sourceRoot":""}]);
-// Exports
-module.exports = ___CSS_LOADER_EXPORT___;
-
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/runtime/api.js":
-/*!*****************************************************!*\
-  !*** ./node_modules/css-loader/dist/runtime/api.js ***!
-  \*****************************************************/
+/***/ "./build.definitions/CapexRequests/Pages/Capex/Capex_Detail.page":
+/*!***********************************************************************!*\
+  !*** ./build.definitions/CapexRequests/Pages/Capex/Capex_Detail.page ***!
+  \***********************************************************************/
 /***/ ((module) => {
 
-"use strict";
-
-
-/*
-  MIT License http://www.opensource.org/licenses/mit-license.php
-  Author Tobias Koppers @sokra
-*/
-// css base code, injected by the css-loader
-// eslint-disable-next-line func-names
-module.exports = function (cssWithMappingToString) {
-  var list = []; // return the list of modules as css string
-
-  list.toString = function toString() {
-    return this.map(function (item) {
-      var content = cssWithMappingToString(item);
-
-      if (item[2]) {
-        return "@media ".concat(item[2], " {").concat(content, "}");
-      }
-
-      return content;
-    }).join("");
-  }; // import a list of modules into the list
-  // eslint-disable-next-line func-names
-
-
-  list.i = function (modules, mediaQuery, dedupe) {
-    if (typeof modules === "string") {
-      // eslint-disable-next-line no-param-reassign
-      modules = [[null, modules, ""]];
-    }
-
-    var alreadyImportedModules = {};
-
-    if (dedupe) {
-      for (var i = 0; i < this.length; i++) {
-        // eslint-disable-next-line prefer-destructuring
-        var id = this[i][0];
-
-        if (id != null) {
-          alreadyImportedModules[id] = true;
-        }
-      }
-    }
-
-    for (var _i = 0; _i < modules.length; _i++) {
-      var item = [].concat(modules[_i]);
-
-      if (dedupe && alreadyImportedModules[item[0]]) {
-        // eslint-disable-next-line no-continue
-        continue;
-      }
-
-      if (mediaQuery) {
-        if (!item[2]) {
-          item[2] = mediaQuery;
-        } else {
-          item[2] = "".concat(mediaQuery, " and ").concat(item[2]);
-        }
-      }
-
-      list.push(item);
-    }
-  };
-
-  return list;
-};
+module.exports = {"Controls":[{"DataSubscriptions":[],"_Type":"Control.Type.SectionedTable","_Name":"SectionedTable","Sections":[{"ObjectHeader":{"Subhead":"Request Id {requestid}","Footnote":"{type/typedescription}","Description":"{description}","StatusText":"{capex} {currency_code}","SubstatusText":"{country/name}","HeadlineText":"{title}","Tags":[],"Target":{"Service":"/CapexRequests/Services/service1.service","EntitySet":"Capex","QueryOptions":"$expand=type,country,business_unit&$filter=ID eq {ID}"}},"_Type":"Section.Type.ObjectHeader","_Name":"SectionObjectHeader0"},{"KeyAndValues":[{"Value":"{firstname}","_Name":"KeyValue0","KeyName":"First Name","Visible":true},{"Value":"{lastname}","_Name":"KeyValue1","KeyName":"Last Name","Visible":true},{"Value":"{email}","_Name":"KeyValue2","KeyName":"Email","Visible":true},{"Value":"{userid}","_Name":"KeyValue3","KeyName":"User ID","Visible":true}],"MaxItemCount":1,"_Type":"Section.Type.KeyValue","_Name":"SectionKeyValue1","Header":{"_Name":"SectionHeader0","UseTopPadding":false,"Caption":"Requestor"},"Visible":true,"EmptySection":{"FooterVisible":false},"Layout":{"NumberOfColumns":2}},{"KeyAndValues":[{"Value":"{country/name}","_Name":"KeyValue4","KeyName":"Country/Region","Visible":true},{"Value":"{business_unit/name}","_Name":"KeyValue5","KeyName":"Business Unit","Visible":true},{"Value":"{capex}","_Name":"KeyValue6","KeyName":"CAPEX","Visible":true},{"Value":"{opex}","_Name":"KeyValue7","KeyName":"OPEX","Visible":true},{"Value":"{totalcost}","_Name":"KeyValue8","KeyName":"Total Cost","Visible":true},{"Value":"{currency_code}","_Name":"KeyValue9","KeyName":"Currency","Visible":true},{"Value":"{irr}","_Name":"KeyValue10","KeyName":"IRR","Visible":true},{"Value":"{roi}","_Name":"KeyValue11","KeyName":"ROI","Visible":true}],"MaxItemCount":1,"_Type":"Section.Type.KeyValue","_Name":"SectionKeyValue2","Header":{"_Name":"SectionHeader1","UseTopPadding":false,"Caption":"Investment Details"},"Visible":true,"EmptySection":{"FooterVisible":false},"Layout":{"NumberOfColumns":2}},{"KeyAndValues":[{"Value":"{energy_efficiency}","_Name":"KeyValue12","KeyName":"Energy Efficiency %","Visible":true},{"Value":"{co2_efficiency}","_Name":"KeyValue13","KeyName":"CO2 Efficiency %","Visible":true},{"Value":"{energy_cost_savings}","_Name":"KeyValue14","KeyName":"Energy Cost Saving %","Visible":true},{"Value":"{water_savings}","_Name":"KeyValue15","KeyName":"Water Saving %","Visible":true}],"MaxItemCount":1,"_Type":"Section.Type.KeyValue","_Name":"SectionKeyValue3","Header":{"_Name":"SectionHeader2","UseTopPadding":false,"Caption":"Sustainability"},"Visible":true,"EmptySection":{"FooterVisible":false},"Layout":{"NumberOfColumns":2}},{"Controls":[{"Value":"{folder_id}","_Type":"Control.Type.FormCell.Document","_Name":"attachments","IsEditable":false}],"Header":{"_Name":"SectionHeader3","UseTopPadding":true,"Caption":"Attachments"},"Footer":{"_Name":"SectionFooter0","UseBottomPadding":false},"Visible":true,"EmptySection":{"FooterVisible":false},"_Type":"Section.Type.FormCell","_Name":"FormCellSection1"}]}],"_Type":"Page","DataSubscriptions":["Capex"],"_Name":"Capex_Detail","Caption":"Request Details","ActionBar":{"Items":[{"_Name":"ActionBarItem0","Caption":"","SystemItem":"Edit","Position":"Right","IsIconCircular":false,"OnPress":"/CapexRequests/Actions/Capex/NavToCapex_Edit.action"},{"_Name":"ActionBarItem1","Caption":"","SystemItem":"Trash","Position":"Right","IsIconCircular":false,"OnPress":"/CapexRequests/Rules/Capex/Capex_DeleteConfirmation.js"}],"_Name":"ActionBar1"}}
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js":
-/*!************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/runtime/cssWithMappingToString.js ***!
-  \************************************************************************/
+/***/ "./build.definitions/CapexRequests/Pages/Capex/Capex_Edit.page":
+/*!*********************************************************************!*\
+  !*** ./build.definitions/CapexRequests/Pages/Capex/Capex_Edit.page ***!
+  \*********************************************************************/
 /***/ ((module) => {
 
-"use strict";
+module.exports = {"Caption":"Update Capital Expenditure Request","ActionBar":{"Items":[{"Position":"Left","SystemItem":"Cancel","OnPress":"/CapexRequests/Actions/CloseModalPage_Cancel.action"},{"Position":"Right","SystemItem":"Save","OnPress":"/CapexRequests/Actions/Capex/Capex_UpdateEntity.action"}]},"Controls":[{"Sections":[{"Controls":[{"Value":"{firstname}","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"firstname","IsEditable":true,"IsVisible":true,"Caption":"First Name","PlaceHolder":"enter requester firstname "},{"Value":"{lastname}","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"lastname","IsEditable":true,"IsVisible":true,"Caption":"Last Name","PlaceHolder":"enter requester lastname"},{"Value":"{email}","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"email","IsEditable":true,"IsVisible":true,"Caption":"Email Address","PlaceHolder":"enter requester email address","KeyboardType":"Email"},{"Value":"{userid}","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"userid","IsEditable":true,"IsVisible":true,"Caption":"User ID","PlaceHolder":"user id"}],"Caption":"Requester","Visible":true},{"Controls":[{"Value":"{comments}","_Type":"Control.Type.FormCell.Note","_Name":"comments","IsEditable":true,"IsVisible":true,"PlaceHolder":"enter comments to the approver"}],"Caption":"Comments from Requester","Visible":true},{"Controls":[{"Value":"{requestid}","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"requestid","IsEditable":false,"IsVisible":true,"Caption":"Request ID","PlaceHolder":"requestid"},{"Value":"{title}","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"title","IsEditable":true,"IsVisible":true,"Caption":"Title","PlaceHolder":"tite"},{"Value":"{type_type}","_Type":"Control.Type.FormCell.ListPicker","_Name":"type_listpicker","IsPickerDismissedOnSelection":true,"IsEditable":true,"IsVisible":true,"AllowMultipleSelection":false,"AllowEmptySelection":false,"Caption":"Type","DataPaging":{"ShowLoadingIndicator":false,"PageSize":50},"PickerPrompt":"Please select Capex Type","IsSelectedSectionEnabled":true,"IsSearchCancelledAfterSelection":false,"AllowDefaultValueIfOneItem":false,"Search":{"Enabled":true,"MinimumCharacterThreshold":3},"PickerItems":{"Target":{"Service":"/CapexRequests/Services/service1.service","EntitySet":"CapexType"},"DisplayValue":"{typedescription}","ReturnValue":"{type}"}},{"Value":"{country_code}","_Type":"Control.Type.FormCell.ListPicker","_Name":"country_listpicker","IsPickerDismissedOnSelection":true,"IsEditable":true,"IsVisible":true,"AllowMultipleSelection":false,"AllowEmptySelection":false,"Caption":"Country/Region","DataPaging":{"ShowLoadingIndicator":false,"PageSize":50},"PickerPrompt":"Please select country","IsSelectedSectionEnabled":true,"IsSearchCancelledAfterSelection":false,"AllowDefaultValueIfOneItem":false,"Search":{"Enabled":true,"MinimumCharacterThreshold":3},"PickerItems":{"Target":{"Service":"/CapexRequests/Services/service1.service","EntitySet":"Countries"},"DisplayValue":"{name}","ReturnValue":"{code}"}},{"Value":"{business_unit_business_unit}","_Type":"Control.Type.FormCell.ListPicker","_Name":"businessunit_listpicker","IsPickerDismissedOnSelection":true,"IsEditable":true,"IsVisible":true,"AllowMultipleSelection":false,"AllowEmptySelection":false,"Caption":"Business Unit","DataPaging":{"ShowLoadingIndicator":false,"PageSize":50},"PickerPrompt":"Please select Business Unit","IsSelectedSectionEnabled":true,"IsSearchCancelledAfterSelection":false,"AllowDefaultValueIfOneItem":false,"Search":{"Enabled":true,"MinimumCharacterThreshold":3},"PickerItems":{"Target":{"Service":"/CapexRequests/Services/service1.service","EntitySet":"BusinessUnits"},"DisplayValue":"{name}","ReturnValue":"{business_unit}"}},{"Value":"{capex}","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"capex","IsEditable":true,"IsVisible":true,"Caption":"CAPEX","PlaceHolder":"capex"},{"Value":"{opex}","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"opex","IsEditable":true,"IsVisible":true,"Caption":"OPEX","PlaceHolder":"opex"},{"Value":"{totalcost}","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"totalcost","IsEditable":true,"IsVisible":true,"Caption":"Total Cost","PlaceHolder":"total cost"},{"Value":"{currency_code}","_Type":"Control.Type.FormCell.ListPicker","_Name":"currency_listpicker","IsPickerDismissedOnSelection":true,"IsEditable":true,"IsVisible":true,"AllowMultipleSelection":false,"AllowEmptySelection":false,"Caption":"Currency","DataPaging":{"ShowLoadingIndicator":false,"PageSize":50},"PickerPrompt":"Please select one single item","IsSelectedSectionEnabled":true,"IsSearchCancelledAfterSelection":false,"AllowDefaultValueIfOneItem":false,"Search":{"Enabled":true,"MinimumCharacterThreshold":3},"PickerItems":{"Target":{"Service":"/CapexRequests/Services/service1.service","EntitySet":"Currencies"},"DisplayValue":"{name}","ReturnValue":"{code}"}},{"Value":"{irr}","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"irr","IsEditable":true,"IsVisible":true,"Caption":"IRR","PlaceHolder":"irr"},{"Value":"{roi}","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"roi","IsEditable":true,"IsVisible":true,"Caption":"ROI","PlaceHolder":"roi"}],"Caption":"Investment Details","Visible":true},{"Target":"","Controls":[{"Value":"{description}","_Type":"Control.Type.FormCell.Note","_Name":"description","IsEditable":true,"IsVisible":true,"PlaceHolder":"PlaceHolder"}],"Caption":"Description","Visible":true},{"Controls":[{"Value":"{energy_efficiency}","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"energy_efficiency","Caption":"Energy Efficiency %"},{"Value":"{co2_efficiency}","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"co2_efficiency","Caption":"CO2 Efficiency %"},{"Value":"{energy_cost_savings}","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"energy_cost_savings","Caption":"Energy Cost Saving %"},{"Value":"{water_savings}","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"water_savings","Caption":"Water Saving %"},{"Value":"{folder_id}","_Type":"Control.Type.FormCell.Document","_Name":"attachment","Caption":"Attachments"}],"Caption":"Sustainability","Visible":true}],"_Name":"PageOneFormCell","_Type":"Control.Type.FormCellContainer"}],"_Type":"Page","_Name":"Capex_Edit"}
 
+/***/ }),
 
-function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+/***/ "./build.definitions/CapexRequests/Pages/Capex/Capex_List.page":
+/*!*********************************************************************!*\
+  !*** ./build.definitions/CapexRequests/Pages/Capex/Capex_List.page ***!
+  \*********************************************************************/
+/***/ ((module) => {
 
-function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
-
-function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
-
-function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
-
-function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
-
-function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
-
-module.exports = function cssWithMappingToString(item) {
-  var _item = _slicedToArray(item, 4),
-      content = _item[1],
-      cssMapping = _item[3];
-
-  if (typeof btoa === "function") {
-    // eslint-disable-next-line no-undef
-    var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(cssMapping))));
-    var data = "sourceMappingURL=data:application/json;charset=utf-8;base64,".concat(base64);
-    var sourceMapping = "/*# ".concat(data, " */");
-    var sourceURLs = cssMapping.sources.map(function (source) {
-      return "/*# sourceURL=".concat(cssMapping.sourceRoot || "").concat(source, " */");
-    });
-    return [content].concat(sourceURLs).concat([sourceMapping]).join("\n");
-  }
-
-  return [content].join("\n");
-};
+module.exports = {"Controls":[{"_Type":"Control.Type.SectionedTable","_Name":"SectionedTable","Sections":[{"Header":{"_Name":"SectionHeader0","UseTopPadding":false,"Caption":"Capex Requests"},"Footer":{"_Name":"SectionFooter0","Caption":"All Requests","AttributeLabel":"/CapexRequests/Rules/Capex/Capex_Request_Count.js","FooterStyle":"attribute","UseBottomPadding":false},"_Type":"Section.Type.ObjectTable","Target":{"EntitySet":"Capex","Service":"/CapexRequests/Services/service1.service","QueryOptions":"$expand=type,country,business_unit"},"_Name":"SectionObjectTable0","EmptySection":{"FooterVisible":false},"ObjectCell":{"Title":"{title}","Subhead":"Request Id {requestid}","Footnote":"{type/typedescription}","Description":"{description}","StatusText":"{capex} {currency_code}","SubstatusText":"{country/name}","DetailImageIsCircular":false,"PreserveIconStackSpacing":false,"AccessoryType":"disclosureIndicator","OnPress":"/CapexRequests/Actions/Capex/NavToCapex_Detail.action","ContextMenu":{"Items":[],"PerformFirstActionWithFullSwipe":true}},"Search":{"Enabled":true,"Placeholder":"Item Search","BarcodeScanner":true,"Delay":500,"MinimumCharacterThreshold":3},"DataPaging":{"ShowLoadingIndicator":true,"LoadingIndicatorText":"Loading more items, please wait..."}}],"LoadingIndicator":{"Enabled":true,"Text":"Loading, please wait..."}}],"_Type":"Page","DataSubscriptions":["Capex"],"_Name":"Capex_List","Caption":"Capex Requests","ActionBar":{"Items":[{"_Name":"ActionBarItem0","Caption":"","SystemItem":"Add","Position":"Right","IsIconCircular":false,"OnPress":"/CapexRequests/Actions/Capex/NavToCapex_Create.action"}],"_Name":"ActionBar1"},"ToolBar":{"Items":[{"_Type":"Control.Type.ToolbarItem","_Name":"LogoutToolbarItem","Caption":"Logout","Enabled":true,"Visible":true,"Clickable":true,"OnPress":"/CapexRequests/Actions/Logout.action"}]}}
 
 /***/ }),
 
@@ -629,46 +669,6 @@ module.exports = {"Value":"1.0.0","_Type":"String"}
 /***/ ((module) => {
 
 module.exports = {"DestinationName":"../serviceonline/","OfflineEnabled":false,"LanguageURLParam":"","OnlineOptions":{},"PathSuffix":"","SourceType":"Cloud","ServiceUrl":""}
-
-/***/ }),
-
-/***/ "./build.definitions/CapexRequests/Pages/Capex/Capex_Create.page":
-/*!***********************************************************************!*\
-  !*** ./build.definitions/CapexRequests/Pages/Capex/Capex_Create.page ***!
-  \***********************************************************************/
-/***/ ((module) => {
-
-module.exports = {"ActionBar":{"Items":[{"OnPress":"/CapexRequests/Actions/CloseModalPage_Cancel.action","Position":"Left","SystemItem":"Cancel"},{"OnPress":"/CapexRequests/Actions/Capex/Capex_CreateEntity.action","Position":"Right","SystemItem":"Save"}]},"Caption":"New Capital Expenditure Request","Controls":[{"Sections":[{"Target":"","Controls":[{"_Type":"Control.Type.FormCell.SimpleProperty","_Name":"firstname","IsEditable":true,"IsVisible":true,"Caption":"First Name","PlaceHolder":"enter requester firstname "},{"_Type":"Control.Type.FormCell.SimpleProperty","_Name":"lastname","IsEditable":true,"IsVisible":true,"Caption":"Last Name","PlaceHolder":"enter requester lastname"},{"_Type":"Control.Type.FormCell.SimpleProperty","_Name":"email","IsEditable":true,"IsVisible":true,"Caption":"Email Address","PlaceHolder":"enter requester email address","KeyboardType":"Email"},{"_Type":"Control.Type.FormCell.SimpleProperty","_Name":"userid","IsEditable":true,"IsVisible":true,"Caption":"User ID","PlaceHolder":"PlaceHolder"}],"Caption":"Requester","Visible":true},{"Controls":[{"_Type":"Control.Type.FormCell.Note","_Name":"comments","IsEditable":true,"IsVisible":true,"PlaceHolder":"enter comments to the approver"}],"Caption":"Comments from Requester","Visible":true},{"Controls":[{"_Type":"Control.Type.FormCell.SimpleProperty","_Name":"requestid","IsEditable":true,"IsVisible":true,"Caption":"Request ID","PlaceHolder":"requestid"},{"_Type":"Control.Type.FormCell.SimpleProperty","_Name":"title","IsEditable":true,"IsVisible":true,"Caption":"Title","PlaceHolder":"title"},{"_Type":"Control.Type.FormCell.ListPicker","_Name":"type_listpicker","IsPickerDismissedOnSelection":true,"IsEditable":true,"IsVisible":true,"AllowMultipleSelection":false,"AllowEmptySelection":false,"Caption":"Type","DataPaging":{"ShowLoadingIndicator":false,"PageSize":50},"PickerPrompt":"Please select Capex Type","IsSelectedSectionEnabled":false,"IsSearchCancelledAfterSelection":false,"AllowDefaultValueIfOneItem":false,"Search":{"Enabled":true,"MinimumCharacterThreshold":3},"PickerItems":{"Target":{"Service":"/CapexRequests/Services/service1.service","EntitySet":"CapexType"},"DisplayValue":"{typedescription}","ReturnValue":"{type}"}},{"_Type":"Control.Type.FormCell.ListPicker","_Name":"country_listpicker","IsPickerDismissedOnSelection":true,"IsEditable":true,"IsVisible":true,"AllowMultipleSelection":false,"AllowEmptySelection":false,"Caption":"Country/Region","DataPaging":{"ShowLoadingIndicator":false,"PageSize":50},"PickerPrompt":"Please select country","IsSelectedSectionEnabled":true,"IsSearchCancelledAfterSelection":false,"AllowDefaultValueIfOneItem":false,"Search":{"Enabled":true,"MinimumCharacterThreshold":3},"PickerItems":{"Target":{"Service":"/CapexRequests/Services/service1.service","EntitySet":"Countries"},"DisplayValue":"{name}","ReturnValue":"{code}"}},{"_Type":"Control.Type.FormCell.ListPicker","_Name":"businessunit_listpicker","IsPickerDismissedOnSelection":true,"IsEditable":true,"IsVisible":true,"AllowMultipleSelection":false,"AllowEmptySelection":false,"Caption":"Business Unit","DataPaging":{"ShowLoadingIndicator":false,"PageSize":50},"PickerPrompt":"Please select Business Unit","IsSelectedSectionEnabled":true,"IsSearchCancelledAfterSelection":false,"AllowDefaultValueIfOneItem":false,"Search":{"Enabled":true,"MinimumCharacterThreshold":3},"PickerItems":{"Target":{"Service":"/CapexRequests/Services/service1.service","EntitySet":"BusinessUnits"},"DisplayValue":"{name}","ReturnValue":"{business_unit}"}},{"_Type":"Control.Type.FormCell.SimpleProperty","_Name":"capex","IsEditable":true,"IsVisible":true,"Caption":"CAPEX","PlaceHolder":"capex"},{"_Type":"Control.Type.FormCell.SimpleProperty","_Name":"opex","IsEditable":true,"IsVisible":true,"Caption":"OPEX","PlaceHolder":"opex"},{"_Type":"Control.Type.FormCell.SimpleProperty","_Name":"totalcost","IsEditable":true,"IsVisible":true,"Caption":"Total Cost","PlaceHolder":"total cost"},{"_Type":"Control.Type.FormCell.ListPicker","_Name":"currency_listpicker","IsPickerDismissedOnSelection":true,"IsEditable":true,"IsVisible":true,"AllowMultipleSelection":false,"AllowEmptySelection":false,"Caption":"Currency","DataPaging":{"ShowLoadingIndicator":false,"PageSize":50},"PickerPrompt":"Please select Currency","IsSelectedSectionEnabled":true,"IsSearchCancelledAfterSelection":false,"AllowDefaultValueIfOneItem":false,"Search":{"Enabled":true},"PickerItems":{"Target":{"Service":"/CapexRequests/Services/service1.service","EntitySet":"Currencies"},"DisplayValue":"{name}","ReturnValue":"{code}"}},{"_Type":"Control.Type.FormCell.SimpleProperty","_Name":"irr","IsEditable":true,"IsVisible":true,"Caption":"IRR","PlaceHolder":"irr"},{"_Type":"Control.Type.FormCell.SimpleProperty","_Name":"roi","IsEditable":true,"IsVisible":true,"Caption":"ROI","PlaceHolder":"roi"}],"Caption":"Investment Details","Visible":true},{"Controls":[{"_Type":"Control.Type.FormCell.Note","_Name":"description","IsEditable":true,"IsVisible":true,"PlaceHolder":"PlaceHolder"}],"Caption":"Description","Visible":true},{"Controls":[{"Target":"","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"energy_efficiency","Caption":"Energy Efficiency %"},{"Target":"","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"co2_efficiency","Caption":"CO2 Efficiency %"},{"Target":"","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"energy_cost_savings","Caption":"Energy Cost Saving %"},{"Target":"","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"water_savings","Caption":"Water Saving %"},{"_Type":"Control.Type.FormCell.Document","_Name":"attachment","Caption":"Attachments"}],"Target":"","Caption":"Sustainability","Visible":true}],"_Name":"FormCellContainer","_Type":"Control.Type.FormCellContainer"}],"_Type":"Page","_Name":"Capex_Create"}
-
-/***/ }),
-
-/***/ "./build.definitions/CapexRequests/Pages/Capex/Capex_Detail.page":
-/*!***********************************************************************!*\
-  !*** ./build.definitions/CapexRequests/Pages/Capex/Capex_Detail.page ***!
-  \***********************************************************************/
-/***/ ((module) => {
-
-module.exports = {"Caption":"Request Details","ActionBar":{"Items":[{"OnPress":"/CapexRequests/Actions/Capex/NavToCapex_Edit.action","Position":"Right","SystemItem":"Edit"},{"OnPress":"/CapexRequests/Rules/Capex/Capex_DeleteConfirmation.js","Position":"Right","SystemItem":"Trash"}]},"Controls":[{"Sections":[{"ObjectHeader":{"Subhead":"Request Id {requestid}","Footnote":"{type/typedescription}","Description":"{description}","StatusText":"{capex} {currency_code}","SubstatusText":"{country/name}","HeadlineText":"{title}","Tags":[],"Target":{"Service":"/CapexRequests/Services/service1.service","EntitySet":"Capex","QueryOptions":"$expand=type,country,business_unit&$filter=ID eq {ID}"}},"_Type":"Section.Type.ObjectHeader","_Name":"SectionObjectHeader0"},{"KeyAndValues":[{"Value":"{firstname}","KeyName":"First Name","Visible":true},{"Value":"{lastname}","KeyName":"Last Name","Visible":true},{"Value":"{email}","KeyName":"Email","Visible":true},{"Value":"{userid}","KeyName":"User ID","Visible":true}],"MaxItemCount":1,"_Type":"Section.Type.KeyValue","_Name":"SectionKeyValue1","Header":{"UseTopPadding":false,"Caption":"Requestor"},"Visible":true,"EmptySection":{"FooterVisible":false},"Layout":{"NumberOfColumns":2}},{"KeyAndValues":[{"Value":"{country/name}","KeyName":"Country/Region","Visible":true},{"Value":"{business_unit/name}","KeyName":"Business Unit","Visible":true},{"Value":"{capex}","KeyName":"CAPEX","Visible":true},{"Value":"{opex}","KeyName":"OPEX","Visible":true},{"Value":"{totalcost}","KeyName":"Total Cost","Visible":true},{"Value":"{currency_code}","KeyName":"Currency","Visible":true},{"Value":"{irr}","KeyName":"IRR","Visible":true},{"Value":"{roi}","KeyName":"ROI","Visible":true}],"MaxItemCount":1,"_Type":"Section.Type.KeyValue","_Name":"SectionKeyValue2","Header":{"UseTopPadding":false,"Caption":"Investment Details"},"Visible":true,"EmptySection":{"FooterVisible":false},"Layout":{"NumberOfColumns":2}},{"KeyAndValues":[{"Value":"{energy_efficiency}","KeyName":"Energy Efficiency %","Visible":true},{"Value":"{co2_efficiency}","KeyName":"CO2 Efficiency %","Visible":true},{"Value":"{energy_cost_savings}","KeyName":"Energy Cost Saving %","Visible":true},{"Value":"{water_savings}","KeyName":"Water Saving %","Visible":true}],"MaxItemCount":1,"_Type":"Section.Type.KeyValue","_Name":"SectionKeyValue3","Header":{"UseTopPadding":false,"Caption":"Sustainability"},"Visible":true,"EmptySection":{"FooterVisible":false},"Layout":{"NumberOfColumns":2}},{"Header":{"Caption":"Attachments"},"Footer":{"Caption":""},"Controls":[{"IsEditable":false,"Value":"{folder_id}","_Type":"Control.Type.FormCell.Document","_Name":"attachments"}],"_Type":"Section.Type.FormCell","_Name":"FormCellSection1"}],"DataSubscriptions":[],"_Type":"Control.Type.SectionedTable","_Name":"SectionedTable"}],"_Type":"Page","_Name":"Capex_Detail"}
-
-/***/ }),
-
-/***/ "./build.definitions/CapexRequests/Pages/Capex/Capex_Edit.page":
-/*!*********************************************************************!*\
-  !*** ./build.definitions/CapexRequests/Pages/Capex/Capex_Edit.page ***!
-  \*********************************************************************/
-/***/ ((module) => {
-
-module.exports = {"Caption":"Update Capital Expenditure Request","ActionBar":{"Items":[{"Position":"Left","SystemItem":"Cancel","OnPress":"/CapexRequests/Actions/CloseModalPage_Cancel.action"},{"Position":"Right","SystemItem":"Save","OnPress":"/CapexRequests/Actions/Capex/Capex_UpdateEntity.action"}]},"Controls":[{"Sections":[{"Controls":[{"Value":"{firstname}","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"firstname","IsEditable":true,"IsVisible":true,"Caption":"First Name","PlaceHolder":"enter requester firstname "},{"Value":"{lastname}","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"lastname","IsEditable":true,"IsVisible":true,"Caption":"Last Name","PlaceHolder":"enter requester lastname"},{"Value":"{email}","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"email","IsEditable":true,"IsVisible":true,"Caption":"Email Address","PlaceHolder":"enter requester email address","KeyboardType":"Email"},{"Value":"{userid}","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"userid","IsEditable":true,"IsVisible":true,"Caption":"User ID","PlaceHolder":"user id"}],"Caption":"Requester","Visible":true},{"Controls":[{"Value":"{comments}","_Type":"Control.Type.FormCell.Note","_Name":"comments","IsEditable":true,"IsVisible":true,"PlaceHolder":"enter comments to the approver"}],"Caption":"Comments from Requester","Visible":true},{"Controls":[{"Value":"{requestid}","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"requestid","IsEditable":false,"IsVisible":true,"Caption":"Request ID","PlaceHolder":"requestid"},{"Value":"{title}","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"title","IsEditable":true,"IsVisible":true,"Caption":"Title","PlaceHolder":"tite"},{"Value":"{type_type}","_Type":"Control.Type.FormCell.ListPicker","_Name":"type_listpicker","IsPickerDismissedOnSelection":true,"IsEditable":true,"IsVisible":true,"AllowMultipleSelection":false,"AllowEmptySelection":false,"Caption":"Type","DataPaging":{"ShowLoadingIndicator":false,"PageSize":50},"PickerPrompt":"Please select Capex Type","IsSelectedSectionEnabled":true,"IsSearchCancelledAfterSelection":false,"AllowDefaultValueIfOneItem":false,"Search":{"Enabled":true,"MinimumCharacterThreshold":3},"PickerItems":{"Target":{"Service":"/CapexRequests/Services/service1.service","EntitySet":"CapexType"},"DisplayValue":"{typedescription}","ReturnValue":"{type}"}},{"Value":"{country_code}","_Type":"Control.Type.FormCell.ListPicker","_Name":"country_listpicker","IsPickerDismissedOnSelection":true,"IsEditable":true,"IsVisible":true,"AllowMultipleSelection":false,"AllowEmptySelection":false,"Caption":"Country/Region","DataPaging":{"ShowLoadingIndicator":false,"PageSize":50},"PickerPrompt":"Please select country","IsSelectedSectionEnabled":true,"IsSearchCancelledAfterSelection":false,"AllowDefaultValueIfOneItem":false,"Search":{"Enabled":true,"MinimumCharacterThreshold":3},"PickerItems":{"Target":{"Service":"/CapexRequests/Services/service1.service","EntitySet":"Countries"},"DisplayValue":"{name}","ReturnValue":"{code}"}},{"Value":"{business_unit_business_unit}","_Type":"Control.Type.FormCell.ListPicker","_Name":"businessunit_listpicker","IsPickerDismissedOnSelection":true,"IsEditable":true,"IsVisible":true,"AllowMultipleSelection":false,"AllowEmptySelection":false,"Caption":"Business Unit","DataPaging":{"ShowLoadingIndicator":false,"PageSize":50},"PickerPrompt":"Please select Business Unit","IsSelectedSectionEnabled":true,"IsSearchCancelledAfterSelection":false,"AllowDefaultValueIfOneItem":false,"Search":{"Enabled":true,"MinimumCharacterThreshold":3},"PickerItems":{"Target":{"Service":"/CapexRequests/Services/service1.service","EntitySet":"BusinessUnits"},"DisplayValue":"{name}","ReturnValue":"{business_unit}"}},{"Value":"{capex}","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"capex","IsEditable":true,"IsVisible":true,"Caption":"CAPEX","PlaceHolder":"capex"},{"Value":"{opex}","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"opex","IsEditable":true,"IsVisible":true,"Caption":"OPEX","PlaceHolder":"opex"},{"Value":"{totalcost}","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"totalcost","IsEditable":true,"IsVisible":true,"Caption":"Total Cost","PlaceHolder":"total cost"},{"Value":"{currency_code}","_Type":"Control.Type.FormCell.ListPicker","_Name":"currency_listpicker","IsPickerDismissedOnSelection":true,"IsEditable":true,"IsVisible":true,"AllowMultipleSelection":false,"AllowEmptySelection":false,"Caption":"Currency","DataPaging":{"ShowLoadingIndicator":false,"PageSize":50},"PickerPrompt":"Please select one single item","IsSelectedSectionEnabled":true,"IsSearchCancelledAfterSelection":false,"AllowDefaultValueIfOneItem":false,"Search":{"Enabled":true,"MinimumCharacterThreshold":3},"PickerItems":{"Target":{"Service":"/CapexRequests/Services/service1.service","EntitySet":"Currencies"},"DisplayValue":"{name}","ReturnValue":"{code}"}},{"Value":"{irr}","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"irr","IsEditable":true,"IsVisible":true,"Caption":"IRR","PlaceHolder":"irr"},{"Value":"{roi}","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"roi","IsEditable":true,"IsVisible":true,"Caption":"ROI","PlaceHolder":"roi"}],"Caption":"Investment Details","Visible":true},{"Target":"","Controls":[{"Value":"{description}","_Type":"Control.Type.FormCell.Note","_Name":"description","IsEditable":true,"IsVisible":true,"PlaceHolder":"PlaceHolder"}],"Caption":"Description","Visible":true},{"Controls":[{"Value":"{energy_efficiency}","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"energy_efficiency","Caption":"Energy Efficiency %"},{"Value":"{co2_efficiency}","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"co2_efficiency","Caption":"CO2 Efficiency %"},{"Value":"{energy_cost_savings}","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"energy_cost_savings","Caption":"Energy Cost Saving %"},{"Value":"{water_savings}","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"water_savings","Caption":"Water Saving %"},{"Value":"{folder_id}","_Type":"Control.Type.FormCell.Document","_Name":"attachment","Caption":"Attachments"}],"Caption":"Sustainability","Visible":true}],"_Name":"PageOneFormCell","_Type":"Control.Type.FormCellContainer"}],"_Type":"Page","_Name":"Capex_Edit"}
-
-/***/ }),
-
-/***/ "./build.definitions/CapexRequests/Pages/Capex/Capex_List.page":
-/*!*********************************************************************!*\
-  !*** ./build.definitions/CapexRequests/Pages/Capex/Capex_List.page ***!
-  \*********************************************************************/
-/***/ ((module) => {
-
-module.exports = {"Caption":"Capex Requests","ActionBar":{"Items":[{"OnPress":"/CapexRequests/Actions/Capex/NavToCapex_Create.action","Position":"Right","SystemItem":"Add"}]},"Controls":[{"Sections":[{"Header":{"_Name":"SectionHeader0","UseTopPadding":false,"Caption":"Capex Requests"},"Footer":{"_Name":"SectionFooter0","Caption":"All Requests","AttributeLabel":"/CapexRequests/Rules/Capex/Capex_Request_Count.js","FooterStyle":"attribute","UseBottomPadding":false},"ObjectCell":{"AccessoryType":"disclosureIndicator","DetailImageIsCircular":false,"OnPress":"/CapexRequests/Actions/Capex/NavToCapex_Detail.action","PreserveIconStackSpacing":false,"Title":"{title}","Subhead":"Request Id {requestid}","Footnote":"{type/typedescription}","Description":"{description}","StatusText":"{capex} {currency_code}","SubstatusText":"{country/name}"},"Search":{"Enabled":true,"Placeholder":"Item Search","BarcodeScanner":true,"Delay":500,"MinimumCharacterThreshold":3},"DataPaging":{"ShowLoadingIndicator":true,"LoadingIndicatorText":"Loading more items, please wait..."},"Target":{"EntitySet":"Capex","Service":"/CapexRequests/Services/service1.service","QueryOptions":"$expand=type,country,business_unit"},"_Type":"Section.Type.ObjectTable"}],"LoadingIndicator":{"Enabled":true,"Text":"Loading, please wait..."},"_Type":"Control.Type.SectionedTable","_Name":"SectionedTable"}],"_Type":"Page","ToolBar":{"Items":[{"_Name":"LogoutToolbarItem","_Type":"Control.Type.ToolbarItem","Caption":"Logout","OnPress":"/CapexRequests/Actions/Logout.action"}]},"_Name":"Capex_List"}
 
 /***/ }),
 

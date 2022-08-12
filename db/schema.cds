@@ -1,6 +1,5 @@
 namespace sap.ui.lcnc;
 
-using sap.workflow from './WorkflowObject';
 
 using
 {
@@ -10,23 +9,18 @@ using
 }
 from '@sap/cds/common';
 
-entity Capex : managed, workflow.TaskEnabled
+entity Capex : managed
 {
     key ID : UUID
         @Core.Computed;
     requestid : String;
-    title : String
-        @workflow.start.property;
-    firstname : String
-        @workflow.start.property;
-    lastname : String
-        @workflow.start.property;
-    email : String
-        @workflow.start.property;
+    title : String;
+    firstname : String;
+    lastname : String;
+    email : String;
     userid : String;
     comments : String;
-    totalcost : String
-        @workflow.start.property;
+    totalcost : String;
     type : Association to one CapexType;
     capex : String;
     opex : String;
