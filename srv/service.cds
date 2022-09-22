@@ -8,8 +8,6 @@ service MainOnlineService
         { grant : ['READ'], to : ['CapexRead'] },
         { grant : ['*'], to : ['CapexWrite'] }
     ]
-    @workflow.start.dataObject : 'capexStart'
-    @workflow.start.definitionId : 'capexapprovals'
     entity Capex as
         projection on my.Capex;
 

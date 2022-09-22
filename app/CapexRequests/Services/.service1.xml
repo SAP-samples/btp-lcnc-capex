@@ -39,8 +39,6 @@
         <Property Name="createdBy" Type="Edm.String" MaxLength="255"/>
         <Property Name="modifiedAt" Type="Edm.DateTimeOffset" Precision="7"/>
         <Property Name="modifiedBy" Type="Edm.String" MaxLength="255"/>
-        <Property Name="taskInstanceId" Type="Edm.String"/>
-        <Property Name="taskDecisionId" Type="Edm.String"/>
         <Property Name="ID" Type="Edm.Guid" Nullable="false"/>
         <Property Name="requestid" Type="Edm.String"/>
         <Property Name="title" Type="Edm.String"/>
@@ -171,14 +169,6 @@
         <Annotation Term="Core.Computed" Bool="true"/>
         <Annotation Term="Core.Description" String="{i18n>UserID.Description}"/>
         <Annotation Term="Common.Label" String="{i18n>ChangedBy}"/>
-      </Annotations>
-      <Annotations Target="MainOnlineService.Capex/taskInstanceId">
-        <Annotation Term="UI.Hidden" Bool="true"/>
-        <Annotation Term="Core.Computed" Bool="true"/>
-      </Annotations>
-      <Annotations Target="MainOnlineService.Capex/taskDecisionId">
-        <Annotation Term="UI.Hidden" Bool="true"/>
-        <Annotation Term="Core.Computed" Bool="true"/>
       </Annotations>
       <Annotations Target="MainOnlineService.Capex/ID">
         <Annotation Term="Core.Computed" Bool="true"/>
@@ -322,6 +312,9 @@
         <Annotation Term="Common.Text" Path="name"/>
         <Annotation Term="Common.Label" String="{i18n>CountryCode}"/>
       </Annotations>
+      <Annotations Target="MainOnlineService.Currencies_texts/locale">
+        <Annotation Term="Common.Label" String="{i18n>LanguageCode}"/>
+      </Annotations>
       <Annotations Target="MainOnlineService.Currencies_texts/name">
         <Annotation Term="Common.Label" String="{i18n>Name}"/>
       </Annotations>
@@ -331,6 +324,9 @@
       <Annotations Target="MainOnlineService.Currencies_texts/code">
         <Annotation Term="Common.Text" Path="name"/>
         <Annotation Term="Common.Label" String="{i18n>CurrencyCode}"/>
+      </Annotations>
+      <Annotations Target="MainOnlineService.Countries_texts/locale">
+        <Annotation Term="Common.Label" String="{i18n>LanguageCode}"/>
       </Annotations>
       <Annotations Target="MainOnlineService.Countries_texts/name">
         <Annotation Term="Common.Label" String="{i18n>Name}"/>

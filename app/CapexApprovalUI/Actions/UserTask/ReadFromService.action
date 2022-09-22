@@ -1,9 +1,0 @@
-{
-    "_Type": "Action.Type.ODataService.Read",
-    "Target": {
-        "EntitySet": "Capex",
-        "Service": "/CapexApprovalUI/Services/service1.service",
-        "QueryOptions": "$filter={{#Application/#ClientData/WorkflowUsertask/taskData/capEntityFilter}}"
-    },
-    "Properties": []
-}

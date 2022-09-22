@@ -20,9 +20,6 @@
       "db": {
         "kind": "sql"
       },
-      "app-service": {
-        "impl": "srv/LCAPApplicationService.js"
-      },
       "uaa": {
         "kind": "xsuaa",
         "credentials": {}
