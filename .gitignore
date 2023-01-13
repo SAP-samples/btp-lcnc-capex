@@ -21,7 +21,7 @@ jspm_packages/
 .vscode-test
 
 # VSCode project
-.vscode
+#.vscode
 
 # package lock for now ignored
 package-lock.json
