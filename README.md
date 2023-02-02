@@ -5,11 +5,11 @@
 
 ## Description
 
-This is a sample project demonstrating the capabilities of the Low Code Application Platform.
+This is a sample project demonstrating the capabilities of the Visual Programming Platform.
 
 Features:
 
-- The business scenario is about creating a low code capital expenditure management application.
+- The business scenario is about creating a capital expenditure management application using visual programming.
 - Demo the project structure, Preview and Deployment etc.
 - Showcase multiple page layouts and rich set of MDK UI controls, e.g., ObjectTable, ObjectHeader, ListPicker, KeyValue, DocumentFormcell and SimpleProperty etc.
 - Consume local or remote OData service by using CAP on Cloud Foundry.
@@ -21,11 +21,11 @@ Features:
 The included resources depend on availability of the SAP Business Technology Platform (BTP) account. To use the resources you will need the following:
 1. You have a SAP BTP account
 
-2. Subscribe to the SAP Low Code Application Platform
+2. Subscribe to the SAP Visual Programming Platform
 
 ***
 
-The resources can also be used as a general code reference and starting point for the Low Code Application Platform.
+The resources can also be used as a general code reference and starting point for the Visual Programming Platform.
 
 Please be advised that any downloads are subject to the following:
 
