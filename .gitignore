@@ -23,9 +23,6 @@ jspm_packages/
 # VSCode project
 #.vscode
 
-# package lock for now ignored
-package-lock.json
-
 # LCAP generatef files
 app/**/dist/
 app/**/dist-zip/
