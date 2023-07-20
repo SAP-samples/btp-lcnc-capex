@@ -32,9 +32,10 @@ entity Capex : managed
     description : String;
     energy_efficiency : String;
     co2_efficiency : String;
-    energy_cost_savings : String;
+    energy_cost_savings : Decimal;
     water_savings : String;
     folder_id : String;
+    expiration_date: Date;
 }
 
 entity CapexType : managed
