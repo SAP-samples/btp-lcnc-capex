@@ -1,7 +1,5 @@
 {
     "requires": {
-        "auth": {
-            "strategy": "dummy"
-        }
+        "auth": "dummy"
     }
 }
