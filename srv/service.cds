@@ -1,6 +1,6 @@
 using { sap.ui.lcnc as my } from '../db/schema';
 
-@path : 'serviceonline'
+@path : '/serviceonline'
 service MainOnlineService
 {
     @restrict :
