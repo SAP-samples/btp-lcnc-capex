@@ -1,19 +1,20 @@
 {
   "name": "capex",
   "version": "1.0.0",
-  "description": "",
+  "description": "CAPEX Sample application",
+  "repository": "https://github.com/SAP-samples/btp-lcnc-capex",
   "dependencies": {
     "@sap/cds": "^7",
     "@sap/mdk-tools": "^1.7.3",
     "@sap/xsenv": "^3.1.0",
     "axios": "^0.21.1",
     "express": "^4",
-    "hdb": "^0.18.3",
-    "passport": "^0.6.0",
+    "hdb": "^0.19.7",
+    "passport": "^0.7.0",
     "qs": "^6.10.3"
   },
   "scripts": {
-    "start": "npx cds run"
+    "start": "cds-serve"
   },
   "cds": {
     "requires": {
