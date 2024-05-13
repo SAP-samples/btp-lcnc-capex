@@ -21,9 +21,13 @@
       "db": {
         "kind": "sql"
       },
-      "uaa": {
-        "kind": "xsuaa",
-        "credentials": {}
+      "auth": {
+        "[development]": {
+            "kind": "dummy"
+        },
+        "[production]": {
+            "kind": "xsuaa"
+        }
       }
     },
     "hana": {
