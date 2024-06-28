@@ -6,10 +6,10 @@
   "dependencies": {
     "@sap/cds": "^7",
     "@sap/mdk-tools": "^1.7.3",
-    "@sap/xssec": "^3.6.1",
     "@sap/xsenv": "^3.1.0",
+    "@sap/xssec": "^3.6.1",
     "axios": "^0.21.1",
-    "express": "^4",
+    "express": "^4.19.2",
     "hdb": "^0.19.7",
     "passport": "^0.7.0",
     "qs": "^6.10.3"
