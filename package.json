@@ -6,7 +6,7 @@
   "dependencies": {
     "@sap/cds": "^7",
     "@sap/mdk-tools": "^1.7.3",
-    "@sap/xssec": "^3.6.1",    
+    "@sap/xssec": "^3.6.1",
     "@sap/xsenv": "^3.1.0",
     "axios": "^0.21.1",
     "express": "^4",
@@ -24,10 +24,10 @@
       },
       "auth": {
         "[development]": {
-            "kind": "dummy"
+          "kind": "dummy"
         },
         "[production]": {
-            "kind": "xsuaa"
+          "kind": "xsuaa"
         }
       }
     },
